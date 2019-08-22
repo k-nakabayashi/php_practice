@@ -1,0 +1,565 @@
+//====================================
+//            メディアクエリ
+//====================================
+
+@mixin --mediaMax($Max) {
+    @media screen and (max-width: $Max) {
+        @content;
+    }
+}
+
+@mixin --mediaMin($Min) {
+    @media screen and (min-width: $Min) {
+        @content;
+    }
+}
+
+@mixin --mediaBetween($Min, $Max) {
+    @media screen and (min-width: $Min) and (max-width: $Max) {
+        @content;
+    }
+}
+
+@mixin --mediaMax1158() {
+    @media screen and (max-width: 1158px){
+        @content;
+    }
+}
+
+
+/*Pad横*/
+@mixin --media771_1030 () {
+    @media screen and ( min-width: 771px) and ( max-width:1030px) { 
+        @content;
+    } 
+} 
+
+/*Pad縦*/
+@mixin --media381_770 ()  {
+    @media screen and ( min-width: 381px) and( max-width:770px) { 
+        /* 480px~600px（スマホ横） */
+        @content;
+    }
+}
+
+/*Sp*/
+@mixin --media380 () {
+    @media screen and ( max-width:380px) {
+        @content;
+    }
+}
+
+/*まとめて設定*/
+@mixin mediaWidth ($tab1, $tab2, $sp) {
+    
+    @include --media771_1030 () {
+        width: $tab1;
+    };
+    @include --media381_770 () {
+        width: $tab2;
+    };
+    @include --media380 () {
+        width: $sp;
+    };
+}
+
+//====================================
+//             テキスト
+//====================================
+
+.u-Pop-Wrapper {
+    &:before {
+        content:"さらに！";
+        background: #e56f63;
+        border: 2px solid #fff;
+        width: 110px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:10px;/*変わるかも*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.u-Number {
+    font-size: 2rem;
+}
+.u-text-child-short {
+  font-size: 0.85em;
+}
+.u-text-name {
+  //font-size: 1.3rem;
+}
+
+.u-text-normal {
+  font-size: 1rem;
+}
+.u-text-red {
+    color: #e56f63;
+}
+
+.u-Under-Border--blue {
+    border-bottom: 3px dotted #1f99a7;
+}
+.u-Under-Border--grey {
+    border-bottom: 3px dotted #ccc;
+}
+
+.u-Spase{
+    background-color: #fff;
+    height: 20px;
+}
+
+.u-Text-Explain {
+  font-size: 0.8rem;
+}
+
+.u-Text-Style5 +  .c-Text-Style5 {
+    margin-top: 5px;
+}
+
+.u-Text-Style10 + .c-Text-Style10 {
+    margin-top: 10px;
+}
+
+.u-Text-Style15 + .c-Text-Style15 {
+    margin-top: 15px;
+}
+.u-Text-Style20 + .c-Text-Style20 {
+    margin-top: 20px;
+}
+.u-Text-Style30 + .c-Text-Style30 {
+    margin-top: 30px;
+}
+
+
+.u-has-Top-Margin45 {
+  margin-top: 45px;
+}
+
+.u-has-Top-Margin30 {
+  margin-top: 30px;
+}
+
+.u-has-Top-Margin20 {
+  margin-top: 20px;
+}
+
+.u-has-Top-Margin15 {
+  margin-top: 15px;
+}
+
+.u-has-Top-Margin10 {
+  margin-top: 10px;
+}
+
+
+.u-has-Bottom-Margin60 {
+  margin-Bottom: 60px;
+}
+
+.u-has-Bottom-Margin45 {
+  margin-Bottom: 45px;
+}
+
+.u-has-Bottom-Margin30 {
+  margin-Bottom: 30px;
+}
+
+
+.u-Text-Primary {
+  color: #e07757;
+}
+
+.u-has-Side-Padding30 {
+  padding-left: 30px!important;
+  padding-right: 30px!important;
+}
+
+.u-has-No-Left-Margin {
+  @include --mediaMax(800px) {
+    margin: 5px 15px 15px 0!important;
+  }
+}
+
+.u-text--has-Padding-Left15 {
+  padding-left: 15px;
+}
+
+.u-sp-only {
+  @include --mediaMin(400px) {
+    display: none;
+  }
+}
+//====================================
+//             アイコン
+//====================================
+/*矢印*/
+/*初期設定*/
+@mixin u-Arrow-basic($text) {
+    position: relative;
+    &:after {
+        content: "#{$text}";
+        display: inline-block;
+        position: absolute;
+    }
+}
+
+//三角形
+@mixin c-Triangle-Down($color) {
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        display: inline-block;
+        border-top: 20px solid #{$color};
+        border-right: 25px solid transparent;
+        border-left: 25px solid transparent;
+        left: calc(50% - 25px);
+    }
+}
+
+.c-Triangle-Down {
+    position:  relative;
+    @include c-Triangle-Down(#1f79a7);
+}
+
+
+//.u-Arrow-down
+// %arrow-left-proparty {
+//     width: 10px;
+//     height: 60px;
+//     top:0; 
+//     right: -13px;
+// }
+
+// .test {
+//     @include u-Arrow-basic("<");
+//     &:after {
+//         @extend %arrow-left-proparty;
+//     }
+// }
+
+@mixin u-Arrow($text) {
+    position: relative;
+    &:after {
+        content: "#{$text}";
+        display: inline-block;
+        position: absolute;
+
+        font-size: 8px;
+        width: 10px;
+        height: 60px;
+        //top:0; 
+        right: -13px;
+
+    }
+}
+
+@mixin u-Arrow__proparty($text) {
+    &:after {
+        font-size: 8px;
+        width: 10px;
+        height: 60px;
+        top:0; 
+        right: -13px;
+    }
+}
+
+
+.u-Arrow-Down {
+    @include u-Arrow("∨");
+}
+
+.u-border-free-auction {
+  border: 3px dotted #e0cfcf;
+  border-radius: 5%;
+}
+//====================================
+//             汎用スタイル
+//====================================
+ul { list-style: none; }
+
+.u-clearfix {
+    &::after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+}
+
+div.u-delete-Div-Margin-Left-Top {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+div.u-delete-Div-Margin-Left {
+  margin-left: 0;
+}
+
+@mixin clearfix {
+    &::after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+}
+
+//修正必要
+//imgタグの縦横いっぱい広げて
+//アスペクト比維持
+@mixin --fitObejct {
+    transform: scaleX(50%);
+    transform: scaleY(50%);
+    object-fit: cover;
+
+    @supports(object-fit: covcer) {
+        transform: scaleX(50%);
+        transform: scaleY(50%);
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.--isNoFloat {  
+    float: none;
+}
+
+.--floatRight {
+  float: right!important;
+}
+
+.--hideOverflow {
+  overflow: hidden;
+}
+
+.u-hideOverflow {
+  overflow: hidden;
+}
+
+.u-floatLeft {
+  float: left;
+}
+
+@mixin --isUnvisible {
+    @content;
+    text-align: left!important;
+    height: 0!important;
+    width: 0!important;
+    opacity: 0!important;
+    visibility: hidden!important;
+    background: grey!important;
+}
+
+
+//====================================
+//             中央寄せ
+//====================================
+
+.--centerText {
+  text-align: center;
+}
+@mixin --centeringX($string){
+    #{$string}-left: auto;
+    #{$string}-right: auto;    
+}
+
+.u-Container-X {
+@at-root {
+
+    .u-Container-X-90percent {
+        //footerでしよう中
+        // width: 1200px; 
+        width: 90%;
+        @include --centeringX("margin");
+    }    
+
+    //基本これ
+    .u-Container-X--verylarge {
+        width: 1200px;
+        @include --centeringX("margin");
+        @include --mediaMax(1000px) {
+            width: 90%;
+        }
+    }
+    .u-Container-X--large {
+        width: 900px;
+        @include --centeringX("margin");
+        @include --mediaMax(900px) {
+          width: 90%;
+        }
+    }
+
+    .u-Container-X--normal {
+        width: 850px;
+        @include --centeringX("margin");//margin:auto;を設定
+    }
+
+    .u-Container-X--veryshort {
+      width: 400px;
+      @include --centeringX("margin");//margin:auto;を設定
+      @include --mediaMax(400px) {
+        width: 90%;
+      }
+  }
+}
+}
+
+// u-container-y--normal 60
+// u-container-y--short 45
+@mixin --centeringY($string, $int) {
+    #{$string}-top: $int;
+    #{$string}-bottom: $int; 
+}
+
+.u-Container-Y {
+@at-root {
+    .u-Container-Y--very-large {
+        @include --centeringY("margin", 90px);
+    }
+
+    .u-Container-Y--large {
+        @include --centeringY("margin", 60px);
+        min-height: 500px;//後ほど考えよう
+    }
+
+    .u-Container-Y--normal {
+      @include --centeringY("margin", 45px);
+    }
+
+    .u-Container-Y--short {
+      @include --centeringY("margin", 30px);
+    }
+
+    .u-Container-Y--very-short {
+      @include --centeringY("margin", 15px);
+    }
+}}
+// u-container-y-p--normal 60
+// u-container-y-p--short 45
+// u-container-y-p--medium-short 30
+// u-container-y-p--veryshort 20
+.u-Container-Y-P {
+@at-root {
+    .u-Container-Y-P--normal {
+        @include --centeringY("padding", 60px);
+    }
+
+    .u-Container-Y-P--short {
+        @include --centeringY("padding", 45px);
+    }
+
+    .u-Container-Y-P--medium-short {
+        @include --centeringY("padding", 30px); 
+    }
+    .u-Container-Y-P--veryshort {
+        @include --centeringY("padding", 20px);
+    }
+}
+}
+/*========================================================
+                位置調節
+========================================================*/
+
+.--floatRight {
+  float: right;
+}
+.--floatLeft {
+  float: left;
+}
+/*========================================================
+                フォーム
+========================================================*/
+
+.u-Form-back {
+  background: rgb(241, 239, 235);
+  height: 30px;
+  width: 100%;
+}
+.u-Form-back--large {
+  @extend .u-Form-back;
+  height: 50px;
+}
+.u-Form-back--confirmChange {
+  background: inherit;
+  width: 100%;
+  height: 30px;
+  padding-left: 15px;
+}
+
+.u-Form-back__textarea--white {
+  @extend .u-Form-back;
+  background: #fff;
+  height: 60px;
+}
+.u-Form-text {
+  width: 130px;
+  display: inline-block;
+}
+
+.c-Form-Select {
+  > select {
+    background: grey;
+    display: inline;
+  }
+}
+
+/*========================================================
+                セレクトフォーム系
+========================================================*/
+
+.c-Form-Select-Parent {
+  position: relative;
+}
+
+.c-Item-Function {
+  position: fixed;
+  background: #f1efeb;
+  z-index: 1;
+  width: 100%;
+  @include clearfix;
+
+@at-root {
+
+  .c-Item-Function__srort {
+    
+  }
+
+  .c-Item-Function_pagenation {
+    
+  }
+}}
+/*========================================================
+                カラム系
+========================================================*/
+
+.--removeFloat {
+  float: none!important;
+  width:100%!important;
+}
+
+//カラムの幅
+.--width30 {
+  width: 30%!important;
+}
+/*========================================================
+                アイテムの状態
+========================================================*/
+.Error-Msg {
+  color: red;
+
+}
+
+/*========================================================
+                アイテムの状態
+========================================================*/
+
+//終了
+
+//おすすめ
+
+//注目
+
+//新着
+

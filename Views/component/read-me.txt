@@ -1,0 +1,24 @@
+
+<?php
+  //head
+  include($_SERVER['DOCUMENT_ROOT']."/component/head.html");
+?>
+
+
+<?php
+//未ログインユーザー用のヘッダー
+  include($_SERVER['DOCUMENT_ROOT']."/component/header.html");
+
+//ログイン済みユーザー用のヘッダー
+  //include($_SERVER['DOCUMENT_ROOT']."/component/header_for_member.html");
+?>
+
+ここにメインコンテンツを入れる
+
+
+
+<?php
+//フッター
+  include($_SERVER['DOCUMENT_ROOT']."/component/footer.html");
+
+?>

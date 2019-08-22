@@ -1,0 +1,774 @@
+[17-Aug-2019 06:29:36 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:29:36 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:30:38 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:30:38 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:30:40 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:30:40 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:33:01 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:33:01 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:34:18 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:34:18 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:34:27 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:34:27 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:34:28 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:34:28 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:34:48 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:34:48 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:34:50 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:34:50 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:35:07 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:35:07 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:35:09 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:35:09 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:46:41 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:46:41 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:46:44 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:46:44 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:49:22 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:49:22 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:51:23 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:51:23 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:58:48 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:58:48 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:59:11 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:59:11 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:59:14 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:59:14 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 06:59:39 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 06:59:39 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 07:00:22 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 07:00:22 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 07:00:43 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 07:00:43 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 07:00:49 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 07:00:49 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 07:00:58 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 07:00:58 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 07:11:03 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 07:11:03 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 07:11:09 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 07:11:09 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 07:11:45 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 07:11:45 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 07:13:27 UTC] デバッグ：ログイン済みユーザーです。
+[17-Aug-2019 07:13:27 UTC] デバッグ：ログイン有効期限以内です。
+[17-Aug-2019 09:33:50 UTC] PHP Notice:  Undefined variable: item_id in /Applications/MAMP/htdocs/freemarket/Model/Comments_Model.php on line 13
+[17-Aug-2019 09:33:50 UTC] PHP Stack trace:
+[17-Aug-2019 09:33:50 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 09:33:50 UTC] PHP   2. display_Applicant_Profile() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:17
+[17-Aug-2019 09:33:50 UTC] PHP   3. Comment::search_Profile_and_Comment() /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:166
+[17-Aug-2019 09:33:50 UTC] デバッグ：クエリに失敗しました。
+[17-Aug-2019 09:33:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:167
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(17): display_Applicant_Profile('51')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 167
+[17-Aug-2019 09:36:32 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /Applications/MAMP/htdocs/freemarket/Utility/common.php on line 374
+[17-Aug-2019 09:36:32 UTC] PHP Stack trace:
+[17-Aug-2019 09:36:32 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 09:36:32 UTC] PHP   2. display_Applicant_Profile() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:17
+[17-Aug-2019 09:36:32 UTC] PHP   3. Comment::search_Profile_and_Comment() /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:166
+[17-Aug-2019 09:36:32 UTC] PHP   4. queryPost() /Applications/MAMP/htdocs/freemarket/Model/Comments_Model.php:14
+[17-Aug-2019 09:36:32 UTC] PHP   5. PDOStatement->execute() /Applications/MAMP/htdocs/freemarket/Utility/common.php:374
+[17-Aug-2019 09:36:32 UTC] デバッグ：クエリに失敗しました。
+[17-Aug-2019 09:36:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:167
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(17): display_Applicant_Profile('51')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 167
+[17-Aug-2019 09:37:55 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /Applications/MAMP/htdocs/freemarket/Utility/common.php on line 374
+[17-Aug-2019 09:37:55 UTC] PHP Stack trace:
+[17-Aug-2019 09:37:55 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 09:37:55 UTC] PHP   2. display_Applicant_Profile() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:17
+[17-Aug-2019 09:37:55 UTC] PHP   3. Comment::search_Profile_and_Comment() /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:166
+[17-Aug-2019 09:37:55 UTC] PHP   4. queryPost() /Applications/MAMP/htdocs/freemarket/Model/Comments_Model.php:14
+[17-Aug-2019 09:37:55 UTC] PHP   5. PDOStatement->execute() /Applications/MAMP/htdocs/freemarket/Utility/common.php:374
+[17-Aug-2019 09:37:55 UTC] デバッグ：クエリに失敗しました。
+[17-Aug-2019 09:37:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:167
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(17): display_Applicant_Profile('51')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 167
+[17-Aug-2019 09:39:43 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /Applications/MAMP/htdocs/freemarket/Utility/common.php on line 374
+[17-Aug-2019 09:39:43 UTC] PHP Stack trace:
+[17-Aug-2019 09:39:43 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 09:39:43 UTC] PHP   2. display_Applicant_Profile($chat_board_id = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:17
+[17-Aug-2019 09:39:43 UTC] PHP   3. Comment::search_Profile_and_Comment($dbh = *uninitialized*, $chat_board_id = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:166
+[17-Aug-2019 09:39:43 UTC] PHP   4. queryPost($dbh = *uninitialized*, $sql = *uninitialized*, $data = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Model/Comments_Model.php:14
+[17-Aug-2019 09:39:43 UTC] PHP   5. PDOStatement->execute(*uninitialized*) /Applications/MAMP/htdocs/freemarket/Utility/common.php:374
+[17-Aug-2019 09:39:44 UTC] デバッグ：クエリに失敗しました。
+[17-Aug-2019 09:39:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:167
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(17): display_Applicant_Profile('51')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 167
+[17-Aug-2019 09:39:48 UTC] PHP Stack trace:
+[17-Aug-2019 09:39:48 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 09:39:48 UTC] PHP   2. display_Applicant_Profile($chat_board_id = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:17
+[17-Aug-2019 09:42:53 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 09:43:45 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 09:43:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function diplay_Chat_Comments_by_Exhibitor() in /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:21
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php on line 21
+[17-Aug-2019 09:44:07 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 09:54:00 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 09:54:00 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 09:54:00 UTC] PHP Notice:  Undefined index: ite_category in /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php on line 67
+[17-Aug-2019 09:54:00 UTC] PHP Stack trace:
+[17-Aug-2019 09:54:00 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 09:54:17 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 09:54:17 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:19:35 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:19:35 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:19:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function diplay_Chat_Comments_by_Exhibitor() in /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:23
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php on line 23
+[17-Aug-2019 10:23:14 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:14 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:19 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:19 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:19 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:19 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:19 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:19 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:21 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:21 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:21 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:21 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:23 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:23:23 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:24:40 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:24:40 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:33 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:33 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:35 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:35 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:36 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:36 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:36 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:36 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:25:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:17 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:17 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:19 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:19 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:49 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:49 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:51 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:51 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:55 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:55 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:26:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:28 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:28 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:28 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:28 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:29 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:29 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:29 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:29 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:30 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:30 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:30 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:30 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:53 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:27:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:24 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:24 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:33 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:33 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:42 UTC] PHP Notice:  Undefined variable: comment in /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php on line 26
+[17-Aug-2019 10:28:42 UTC] PHP Stack trace:
+[17-Aug-2019 10:28:42 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 10:28:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Comment::insert_Chat_Comment() in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:198
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(47): create_Chat_Comment(Array)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 198
+[17-Aug-2019 10:28:49 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:49 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:52 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:52 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:57 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:57 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:28:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:02 UTC] PHP Notice:  Undefined variable: comment in /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php on line 26
+[17-Aug-2019 10:29:02 UTC] PHP Stack trace:
+[17-Aug-2019 10:29:02 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 10:29:27 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:27 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:28 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:28 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:32 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:32 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:57 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:57 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:59 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:29:59 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:01 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:01 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:42 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:42 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:55 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:55 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:55 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:55 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:30:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:31:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:31:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:31:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:31:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:31:19 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:31:19 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:22 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:22 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:36 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:36 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:39 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:39 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:43 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:43 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:43 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:43 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:46 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:46 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:46 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:46 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:32:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:33:01 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:33:01 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:33:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:33:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:33:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Comment::insert_Chat_Comment() in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:198
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(45): create_Chat_Comment(Array)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 198
+[17-Aug-2019 10:33:41 UTC] PHP Stack trace:
+[17-Aug-2019 10:33:41 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 10:33:41 UTC] PHP   2. create_Chat_Comment($data_list = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:45
+[17-Aug-2019 10:33:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:33:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:34:06 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:34:06 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:34:11 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:34:11 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:34:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:34:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:38:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:38:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:40:07 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:40:07 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:40:10 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:40:10 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:40:25 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:40:25 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:40:30 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:40:30 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:40:54 UTC] PHP Notice:  Undefined variable: data_list_item in /Applications/MAMP/htdocs/freemarket/Model/Chat_Comments_Model.php on line 13
+[17-Aug-2019 10:40:54 UTC] PHP Stack trace:
+[17-Aug-2019 10:40:54 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 10:40:54 UTC] PHP   2. create_Chat_Comment($data_list = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:47
+[17-Aug-2019 10:40:54 UTC] PHP   3. Chat_Commentinsert_Chat_Comment($dbh = *uninitialized*, $data_list = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:198
+[17-Aug-2019 10:41:06 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:41:06 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:41:08 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:41:08 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:41:14 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:41:14 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:41:40 UTC] デバッグ：クエリに失敗しました。
+[17-Aug-2019 10:41:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:199
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(47): create_Chat_Comment(Array)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 199
+[17-Aug-2019 10:41:57 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:41:57 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:46:46 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:46:46 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:47:02 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:47:02 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:47:02 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:47:32 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:47:32 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:47:32 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:48:11 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:48:11 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:48:11 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:52:09 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:52:09 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:52:09 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /Applications/MAMP/htdocs/freemarket/Utility/common.php on line 376
+[17-Aug-2019 10:52:09 UTC] PHP Stack trace:
+[17-Aug-2019 10:52:09 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 10:52:09 UTC] PHP   2. diplay_Chat_Comments() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:54
+[17-Aug-2019 10:52:09 UTC] PHP   3. Chat_Commentselect_All_Chat_Comments() /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:223
+[17-Aug-2019 10:52:09 UTC] PHP   4. queryPost() /Applications/MAMP/htdocs/freemarket/Model/Chat_Comments_Model.php:13
+[17-Aug-2019 10:52:09 UTC] PHP   5. PDOStatement->execute() /Applications/MAMP/htdocs/freemarket/Utility/common.php:376
+[17-Aug-2019 10:52:09 UTC] デバッグ：クエリに失敗しました。
+[17-Aug-2019 10:52:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:224
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(54): diplay_Chat_Comments('47')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 224
+[17-Aug-2019 10:52:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:52:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:52:16 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /Applications/MAMP/htdocs/freemarket/Utility/common.php on line 376
+[17-Aug-2019 10:52:16 UTC] PHP Stack trace:
+[17-Aug-2019 10:52:16 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 10:52:16 UTC] PHP   2. diplay_Chat_Comments() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:54
+[17-Aug-2019 10:52:16 UTC] PHP   3. Chat_Commentselect_All_Chat_Comments() /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:223
+[17-Aug-2019 10:52:16 UTC] PHP   4. queryPost() /Applications/MAMP/htdocs/freemarket/Model/Chat_Comments_Model.php:13
+[17-Aug-2019 10:52:16 UTC] PHP   5. PDOStatement->execute() /Applications/MAMP/htdocs/freemarket/Utility/common.php:376
+[17-Aug-2019 10:52:16 UTC] デバッグ：クエリに失敗しました。
+[17-Aug-2019 10:52:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:224
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(54): diplay_Chat_Comments('47')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 224
+[17-Aug-2019 10:52:29 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:52:29 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:52:29 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /Applications/MAMP/htdocs/freemarket/Utility/common.php on line 376
+[17-Aug-2019 10:52:29 UTC] PHP Stack trace:
+[17-Aug-2019 10:52:29 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 10:52:29 UTC] PHP   2. diplay_Chat_Comments($data_list = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:54
+[17-Aug-2019 10:52:29 UTC] PHP   3. Chat_Commentselect_All_Chat_Comments($dbh = *uninitialized*, $data_list = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:223
+[17-Aug-2019 10:52:29 UTC] PHP   4. queryPost($dbh = *uninitialized*, $sql = *uninitialized*, $data = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Model/Chat_Comments_Model.php:13
+[17-Aug-2019 10:52:29 UTC] PHP   5. PDOStatement->execute(*uninitialized*) /Applications/MAMP/htdocs/freemarket/Utility/common.php:376
+[17-Aug-2019 10:52:35 UTC] デバッグ：クエリに失敗しました。
+[17-Aug-2019 10:52:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:224
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(54): diplay_Chat_Comments('47')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 224
+[17-Aug-2019 10:53:03 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:53:03 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:53:03 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /Applications/MAMP/htdocs/freemarket/Utility/common.php on line 376
+[17-Aug-2019 10:53:03 UTC] PHP Stack trace:
+[17-Aug-2019 10:53:03 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 10:53:03 UTC] PHP   2. diplay_Chat_Comments($data_list = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:54
+[17-Aug-2019 10:53:03 UTC] PHP   3. Chat_Commentselect_All_Chat_Comments($dbh = *uninitialized*, $data_list = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:223
+[17-Aug-2019 10:53:03 UTC] PHP   4. queryPost($dbh = *uninitialized*, $sql = *uninitialized*, $data = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Model/Chat_Comments_Model.php:13
+[17-Aug-2019 10:53:03 UTC] PHP   5. PDOStatement->execute(*uninitialized*) /Applications/MAMP/htdocs/freemarket/Utility/common.php:376
+[17-Aug-2019 10:53:53 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:54:01 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:55:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:55:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:55:30 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:56:21 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:56:21 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:56:32 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:04 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:04 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:04 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:14 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:14 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:14 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:17 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:17 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:17 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:17 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:17 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:17 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:53 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:53 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:53 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:57:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:00 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:00 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:00 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:00 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:00 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:00 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:48 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:48 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:48 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:49 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:49 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:49 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:59 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:59 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:58:59 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:59:06 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:59:06 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 10:59:06 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:04 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:04 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:04 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:12 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/freemarket/Utility/common.php on line 376
+[17-Aug-2019 11:14:12 UTC] PHP Stack trace:
+[17-Aug-2019 11:14:12 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 11:14:12 UTC] PHP   2. diplay_Chat_Comments() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:62
+[17-Aug-2019 11:14:12 UTC] PHP   3. Chat_Commentselect_All_Chat_Comments() /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:223
+[17-Aug-2019 11:14:12 UTC] PHP   4. queryPost() /Applications/MAMP/htdocs/freemarket/Model/Chat_Comments_Model.php:13
+[17-Aug-2019 11:14:12 UTC] PHP   5. PDOStatement->execute() /Applications/MAMP/htdocs/freemarket/Utility/common.php:376
+[17-Aug-2019 11:14:12 UTC] デバッグ：クエリに失敗しました。
+[17-Aug-2019 11:14:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on int in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:224
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(62): diplay_Chat_Comments(Array)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 224
+[17-Aug-2019 11:14:29 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:29 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:29 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:30 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:30 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:30 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:31 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:31 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:31 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:31 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:31 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:31 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:14:57 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:15:07 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:15:12 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/freemarket/Utility/common.php on line 376
+[17-Aug-2019 11:15:12 UTC] PHP Stack trace:
+[17-Aug-2019 11:15:12 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 11:15:12 UTC] PHP   2. diplay_Chat_Comments($data_list = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:62
+[17-Aug-2019 11:15:12 UTC] PHP   3. Chat_Commentselect_All_Chat_Comments($dbh = *uninitialized*, $data_list = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:223
+[17-Aug-2019 11:15:12 UTC] PHP   4. queryPost($dbh = *uninitialized*, $sql = *uninitialized*, $data = *uninitialized*) /Applications/MAMP/htdocs/freemarket/Model/Chat_Comments_Model.php:13
+[17-Aug-2019 11:15:12 UTC] PHP   5. PDOStatement->execute(*uninitialized*) /Applications/MAMP/htdocs/freemarket/Utility/common.php:376
+[17-Aug-2019 11:15:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:15:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:15:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:15:42 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:15:42 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:15:42 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:16:08 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:16:08 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:16:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:37 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:38 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:38 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:38 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:40 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:40 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:40 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:48 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:48 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:17:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:03 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:20 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:21 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:21 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:21 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:21 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:27 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:27 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:27 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:28 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:28 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:28 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:42 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:42 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:42 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:50 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:50 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:50 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:50 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:52 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:52 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:52 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:18:52 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:13 UTC] PHP Notice:  Undefined index: item_img in /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php on line 91
+[17-Aug-2019 11:21:13 UTC] PHP Stack trace:
+[17-Aug-2019 11:21:13 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 11:21:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:16 UTC] PHP Notice:  Undefined index: item_img in /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php on line 91
+[17-Aug-2019 11:21:16 UTC] PHP Stack trace:
+[17-Aug-2019 11:21:16 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 11:21:24 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:24 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:24 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:32 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:32 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:21:32 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:22:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:22:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:22:16 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:22:16 UTC] PHP Notice:  Undefined index: user_image in /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php on line 134
+[17-Aug-2019 11:22:16 UTC] PHP Stack trace:
+[17-Aug-2019 11:22:16 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php:0
+[17-Aug-2019 11:22:41 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:23:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:23:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:23:13 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:25:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:25:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:25:54 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:25:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:25:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:25:56 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:05 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:05 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:05 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:07 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:07 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:07 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:31 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:31 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:31 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:39 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:39 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:39 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:26:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:26 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:26 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:26 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:38 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:38 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:38 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:48 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:48 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:48 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:37:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:38:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:38:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:38:18 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:38:24 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:38:24 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 11:38:24 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:47 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:47 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:47 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:50 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:50 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:50 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:50 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:28:58 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:29:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:29:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:29:12 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:29:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:29:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:29:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:29:15 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:36:27 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:36:27 UTC] デバッグ：クエリ成功。
+[17-Aug-2019 23:36:27 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 04:00:08 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 04:00:08 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 04:00:08 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 04:00:14 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 04:00:14 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 04:00:14 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:05 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:05 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:05 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:09 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:09 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:09 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:09 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:51 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:51 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:51 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:54 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:54 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:54 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:39:54 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:47:41 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:47:41 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:47:41 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:47:59 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:47:59 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 09:47:59 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:01:33 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:01:33 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:01:33 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:01:37 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:01:37 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:01:37 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:06:31 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:06:31 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:06:33 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:06:46 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:06:46 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:06:46 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:06:49 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:06:49 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:06:49 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:07:48 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:07:48 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:07:48 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:07:57 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:07:57 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:07:57 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:07:59 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:07:59 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:07:59 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:11:16 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:11:16 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:11:16 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:21:15 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:21:15 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:21:15 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:21:53 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:21:53 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:21:53 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:22:10 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:22:10 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:22:10 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:22:18 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:22:18 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:22:18 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:23:57 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:23:57 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:23:57 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:24:02 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:24:02 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:24:02 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:24:29 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:24:29 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:24:29 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:24:40 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:24:40 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:24:40 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:27:04 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:27:04 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:27:04 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:28:04 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:28:04 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:28:04 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:28:33 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:28:33 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:28:33 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:29:16 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:29:16 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:29:16 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:29:19 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:29:19 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:29:19 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:29:22 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:29:22 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:29:22 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:52:57 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:52:57 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:52:57 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:53:02 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:53:02 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:53:02 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:53:30 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:53:30 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:53:30 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:01 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:01 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:01 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:05 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:05 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Chat_Commentinsert_Chat_Comment() in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:228
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(55): create_Chat_Comment(Array)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 228
+[18-Aug-2019 10:54:16 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:16 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:16 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:20 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:20 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:54:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Chat_Commentinsert_Chat_Comment() in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:228
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/auction/Chat-Board.php(55): create_Chat_Comment(Array)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 228
+[18-Aug-2019 10:56:33 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:56:33 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:56:33 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:56:35 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:56:35 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:56:35 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:56:35 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:56:42 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:56:42 UTC] デバッグ：クエリ成功。
+[18-Aug-2019 10:56:42 UTC] デバッグ：クエリ成功。

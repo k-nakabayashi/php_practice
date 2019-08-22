@@ -1,0 +1,1735 @@
+@charset "UTF-8";
+/*Pad横*/
+/*Pad縦*/
+/*Sp*/
+/*まとめて設定*/
+.u-Pop-Wrapper:before {
+  content: "さらに！";
+  background: #e56f63;
+  border: 2px solid #fff;
+  width: 110px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+  /*変わるかも*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u-Number {
+  font-size: 2rem;
+}
+
+.u-text-child-short {
+  font-size: 0.85em;
+}
+
+.u-text-normal {
+  font-size: 1rem;
+}
+
+.u-text-red {
+  color: #e56f63;
+}
+
+.u-Under-Border--blue {
+  border-bottom: 3px dotted #1f99a7;
+}
+
+.u-Under-Border--grey {
+  border-bottom: 3px dotted #ccc;
+}
+
+.u-Spase {
+  background-color: #fff;
+  height: 20px;
+}
+
+.u-Text-Explain {
+  font-size: 0.8rem;
+}
+
+.u-Text-Style5 + .c-Text-Style5 {
+  margin-top: 5px;
+}
+
+.u-Text-Style10 + .c-Text-Style10 {
+  margin-top: 10px;
+}
+
+.u-Text-Style15 + .c-Text-Style15 {
+  margin-top: 15px;
+}
+
+.u-Text-Style20 + .c-Text-Style20 {
+  margin-top: 20px;
+}
+
+.u-Text-Style30 + .c-Text-Style30 {
+  margin-top: 30px;
+}
+
+.u-has-Top-Margin45 {
+  margin-top: 45px;
+}
+
+.u-has-Top-Margin30 {
+  margin-top: 30px;
+}
+
+.u-has-Top-Margin20 {
+  margin-top: 20px;
+}
+
+.u-has-Top-Margin15 {
+  margin-top: 15px;
+}
+
+.u-has-Top-Margin10 {
+  margin-top: 10px;
+}
+
+.u-has-Bottom-Margin60 {
+  margin-Bottom: 60px;
+}
+
+.u-has-Bottom-Margin45 {
+  margin-Bottom: 45px;
+}
+
+.u-has-Bottom-Margin30 {
+  margin-Bottom: 30px;
+}
+
+.u-Text-Primary {
+  color: #e07757;
+}
+
+.u-has-Side-Padding30 {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+@media screen and (max-width: 800px) {
+  .u-has-No-Left-Margin {
+    margin: 5px 15px 15px 0 !important;
+  }
+}
+
+.u-text--has-Padding-Left15 {
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 400px) {
+  .u-sp-only {
+    display: none;
+  }
+}
+
+/*矢印*/
+/*初期設定*/
+.c-Triangle-Down {
+  position: relative;
+}
+
+.c-Triangle-Down:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  display: inline-block;
+  border-top: 20px solid #1f79a7;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  left: calc(50% - 25px);
+}
+
+.u-Arrow-Down {
+  position: relative;
+}
+
+.u-Arrow-Down:after {
+  content: "∨";
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  width: 10px;
+  height: 60px;
+  right: -13px;
+}
+
+.u-border-free-auction {
+  border: 3px dotted #e0cfcf;
+  border-radius: 5%;
+}
+
+ul {
+  list-style: none;
+}
+
+.u-clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.u-delete-Div-Margin-Left-Top {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+div.u-delete-Div-Margin-Left {
+  margin-left: 0;
+}
+
+.--isNoFloat {
+  float: none;
+}
+
+.--floatRight {
+  float: right !important;
+}
+
+.--hideOverflow {
+  overflow: hidden;
+}
+
+.u-hideOverflow {
+  overflow: hidden;
+}
+
+.u-floatLeft {
+  float: left;
+}
+
+.--centerText {
+  text-align: center;
+}
+
+.u-Container-X-90percent {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u-Container-X--verylarge {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .u-Container-X--verylarge {
+    width: 90%;
+  }
+}
+
+.u-Container-X--large {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .u-Container-X--large {
+    width: 90%;
+  }
+}
+
+.u-Container-X--normal {
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u-Container-X--veryshort {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 400px) {
+  .u-Container-X--veryshort {
+    width: 90%;
+  }
+}
+
+.u-Container-Y--very-large {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.u-Container-Y--large {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  min-height: 500px;
+}
+
+.u-Container-Y--normal {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.u-Container-Y--short {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.u-Container-Y--very-short {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.u-Container-Y-P--normal {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.u-Container-Y-P--short {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.u-Container-Y-P--medium-short {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.u-Container-Y-P--veryshort {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*========================================================
+                位置調節
+========================================================*/
+.--floatRight {
+  float: right;
+}
+
+.--floatLeft {
+  float: left;
+}
+
+/*========================================================
+                フォーム
+========================================================*/
+.u-Form-back, .u-Form-back--large, .u-Form-back__textarea--white {
+  background: #f1efeb;
+  height: 30px;
+  width: 100%;
+}
+
+.u-Form-back--large {
+  height: 50px;
+}
+
+.u-Form-back--confirmChange {
+  background: inherit;
+  width: 100%;
+  height: 30px;
+  padding-left: 15px;
+}
+
+.u-Form-back__textarea--white {
+  background: #fff;
+  height: 60px;
+}
+
+.u-Form-text {
+  width: 130px;
+  display: inline-block;
+}
+
+.c-Form-Select > select, .put-item-Form-Select > select {
+  background: grey;
+  display: inline;
+}
+
+/*========================================================
+                セレクトフォーム系
+========================================================*/
+.c-Form-Select-Parent {
+  position: relative;
+}
+
+.c-Item-Function {
+  position: fixed;
+  background: #f1efeb;
+  z-index: 1;
+  width: 100%;
+}
+
+.c-Item-Function::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*========================================================
+                カラム系
+========================================================*/
+.--removeFloat {
+  float: none !important;
+  width: 100% !important;
+}
+
+.--width30 {
+  width: 30% !important;
+}
+
+/*========================================================
+                アイテムの状態
+========================================================*/
+.Error-Msg {
+  color: red;
+}
+
+/*========================================================
+                アイテムの状態
+========================================================*/
+/*下地*/
+body {
+  overflow: hidden;
+  background: #f1efeb;
+}
+
+/*ヘッダー
+<header class="l-header">
+    <div class="l-Header-Wrapper">
+        <div class="l-Header-Wrapper__Logo">
+            <a href=""></a>
+        </div>
+        <ul class="l-Header-Wrapper__list l-Header-List">
+            <li><a href="" class="c-Arrow-Down"></a></li>
+            <li><a href="" class="c-Arrow-Down"></a></li>
+        </ul>
+    </div>
+</header>
+*/
+.l-Header {
+  z-index: 1;
+  position: fixed;
+  background: #e07757;
+  width: 100%;
+  height: 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .l-Header {
+    display: none;
+  }
+}
+
+.l-Header-Wrapper {
+  width: 95%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.l-Header-Wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.l-Header-Wrapper__logo {
+  float: left;
+  width: 40%;
+  height: auto;
+}
+
+.l-Header-Wrapper__logo > a {
+  background-image: url(/images/logoK.png);
+  background-size: contain;
+  background-position: center;
+  display: block;
+  height: 60px;
+  width: 130px;
+  margin: auto;
+}
+
+.l-Header-Wrapper__list {
+  float: right;
+  width: 60%;
+  font-size: 14px;
+}
+
+/*ナビ絡む落ち*/
+/*
+@include --mediaMax(1158px) {
+    
+    .l-Header-Wrapper__logo,
+    .l-Header-Wrapper__list {
+    float: none;
+}}
+*/
+/*トップ画像の上部余白拡張、絡む落ち*/
+/*
+@include --mediaBetween (969px, 1157px) {
+    
+    .l-Header {
+        height: 120px;
+    }
+    
+    .l-Section-Top  {
+        padding-top: 90px!important;
+    }
+
+}
+
+//ナビ非表示*
+@include --mediaMax(968px) {
+    .l-Header-Wrapper__list {
+       @include --isUnvisible;
+    }
+}
+*/
+/*
+ <ul class="l-Header-Wrapper__list l-Header-List">
+*/
+.l-Header-List {
+  line-height: 60px;
+  text-align: center;
+  width: auto;
+}
+
+.l-Header-List > li {
+  float: left;
+}
+
+.l-Header-List > li > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.l-Header-List > li + li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.l-Header-List > li:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background-color .5s;
+}
+
+.l-Header-List > li:hover > a {
+  color: white;
+}
+
+.l-Header-Logo1 {
+  display: inline-block;
+  background-image: url(/images/ico-homeK.gif);
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.l-Header-Service {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #00b9ef;
+}
+
+.l-Header-Acordion1 {
+  background: grey;
+  text-align: left;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.l-Footer {
+  background-color: #92a1a6;
+  color: #fff;
+  margin: 60px auto;
+}
+
+.l-Footer-container {
+  padding: 20px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.l-Footer-Wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.l-Footer-Wrapper__profile {
+  float: left;
+  height: 20%;
+  margin-right: 60px;
+}
+
+.l-Footer-Wrapper__links {
+  float: left;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 45px;
+  width: 70%;
+}
+
+.l-Footer-Profile__list {
+  padding-top: 60px;
+  height: 80%;
+  font-size: 12px;
+  display: inline-block;
+  background-image: url(/images/_logo.png);
+  background-size: 65%;
+}
+
+.l-Footer-Profile__list > li:nth-child(2) {
+  font-size: 17px;
+}
+
+.l-Footer-Profile__link {
+  padding-top: 30px;
+}
+
+.l-Footer-Profile__link > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.l-Footer-Map {
+  float: left;
+  margin-right: 30px;
+}
+
+.l-Footer-Map__text {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.l-Footer-Map__text > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.l-Footer-Map__list {
+  font-size: 11px;
+}
+
+.l-Footer-Map__list > ul > li > a {
+  color: #dadadc;
+  text-decoration: none;
+}
+
+.l-Footer-Copyright {
+  color: #dadadc;
+  font-size: 11px;
+  margin-top: 60px;
+}
+
+/*メインラッパー*/
+.l-Main-Wrapper {
+  position: relative;
+}
+
+/*サイドメニュー*/
+.l-Main-Wrapper__Side-Menu {
+  position: fixed;
+  height: 80%;
+  width: 20%;
+}
+
+@media screen and (max-width: 800px) {
+  .l-Main-Wrapper__Side-Menu {
+    display: none;
+  }
+}
+
+/*メインメニュー*/
+.l-Main-Wrapper__Main-Menu {
+  width: 80%;
+  margin-left: 20%;
+  padding: 30px 5%;
+  padding: 0 30px 5% 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .l-Main-Wrapper__Main-Menu {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/*サイドメニュー*/
+.l-Side-Menu {
+  background: #cfcece;
+  margin: 0 auto;
+  padding: 15px;
+  height: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  .l-Side-Menu {
+    display: none;
+  }
+}
+
+.l-Side-Menu > form > label {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .l-Side-Menu > form {
+    display: none;
+  }
+}
+
+/*ぱくず本体*/
+.c-Pan {
+  height: 40px;
+  background-color: #f5f3ee;
+}
+
+.c-Pan__list {
+  float: left;
+}
+
+.c-Pan__list::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.c-Pan__list > li {
+  display: inline-block;
+  line-height: 40px;
+  font-size: 13px;
+}
+
+.c-Pan__list > li + li {
+  margin-left: 30px;
+}
+
+.c-Pan__list > li > a {
+  color: #00b9ef;
+  position: relative;
+  position: relative;
+}
+
+.c-Pan__list > li > a:after {
+  content: ">";
+  display: inline-block;
+  position: absolute;
+}
+
+.c-Pan__list > li > a:after {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  width: 10px;
+  height: 40px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: -20px;
+}
+
+/*ボタン*/
+.c-Form-Button, .top-Sort-Form-Button, .item-detail-Form-Button {
+  margin: 15px;
+  background: rgba(41, 39, 39, 0.192);
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.c-Form-Button input, .top-Sort-Form-Button input, .item-detail-Form-Button input {
+  line-height: 40px;
+  width: 100%;
+}
+
+/*アイテム関連*/
+/*アイテム　サムネイル*/
+.c-Item-List {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.c-Item-List::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.c-Item-List__Item-Thumbnail {
+  float: left;
+  width: 20%;
+  height: 200px;
+}
+
+.c-Item-Thumbnail {
+  padding: 5%;
+  float: left;
+  border: 3px dotted #fcc;
+  border-radius: 5%;
+  width: 90%;
+  height: 90%;
+  background: white;
+}
+
+.c-Item-Thumbnail__img {
+  position: relative;
+  height: 60%;
+}
+
+.c-Item-Thumbnail__img > img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.c-Item-Thumbnail__paragraph {
+  padding: 2%;
+  height: 40%;
+}
+
+.c-Item-Thumbnail__paragraph > h3 {
+  background: #f19a67;
+  font-weight: bold;
+}
+
+.c-Item-List {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.c-Item-List::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.c-Item-List__Item-Thumbnail {
+  float: left;
+  width: 20%;
+  height: 200px;
+}
+
+/*============================================
+        クラス アイテムやプロフィールで使う
+============================================*/
+.c-obj-List, .item-Comments-List {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+.c-obj-List::after, .item-Comments-List::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.c-obj-List__obj-Thumbnail, .item-Proposal, .chat, .mypage-item-List__obj-Thumbnail {
+  float: left;
+  width: 20%;
+  height: 250px;
+}
+
+@media screen and (max-width: 800px) {
+  .c-obj-List__obj-Thumbnail, .item-Proposal, .chat, .mypage-item-List__obj-Thumbnail {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .c-obj-List__obj-Thumbnail, .item-Proposal, .chat, .mypage-item-List__obj-Thumbnail {
+    height: auto;
+    max-height: 150px;
+  }
+}
+
+.c-obj-Thumbnail, .item-Proposal__person, .chat-Person-Img-Name {
+  padding-top: 5%;
+  float: left;
+  border: 3px dotted #fcc;
+  border-radius: 5%;
+  width: 90%;
+  height: 90%;
+  background: white;
+}
+
+.c-obj-Thumbnail__img, .item-person__img, .mypage-iteme-Thumbnail__img {
+  position: relative;
+  height: 70%;
+}
+
+.c-obj-Thumbnail__img > img, .item-person__img > img, .mypage-iteme-Thumbnail__img > img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.c-obj-Thumbnail__paragraph, .item-person__paragraph {
+  padding: 2%;
+  height: 30%;
+}
+
+@media screen and (max-width: 500px) {
+  .c-obj-Thumbnail__paragraph, .item-person__paragraph {
+    display: none;
+  }
+}
+
+.c-obj-Thumbnail__paragraph > h3, .item-person__paragraph > h3 {
+  background: #f19a67;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.c-obj-Thumbnail__paragraph > p, .item-person__paragraph > p {
+  font-size: 0.7rem;
+}
+
+.c-obj-Thumbnail__link-list {
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width: 500px) {
+  .c-obj-Thumbnail__link-list {
+    font-size: 0.1rem;
+  }
+}
+
+/*============================================
+        フォーム
+============================================*/
+/*セレクトフォーム*/
+.c-Form-Select__label {
+  display: block;
+}
+
+.c-Form-Select__wrapper, .put-item-Form-Select__Select-Down {
+  margin: 15px;
+  display: inline-block;
+}
+
+.c-Form-Select-Down, .put-item-Select-Down {
+  background: rgba(41, 39, 39, 0.192);
+  display: inline-block;
+  width: 170px;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 10px;
+  color: #fff;
+}
+
+/*
+<div class="c-Form-Select">
+  <div class="c-Form-Select__wrapper c-Form-Select__Arrow-Down ">
+    <select name="" id="">
+      <option value="">ファッション</option>
+      <option value="">本</option>
+      <option value="">車</option>
+    </select>
+  </div>
+</div>
+*/
+.c-Form-Select__Arrow-Down, .put-item-Form-Select__Arrow-Down {
+  position: relative;
+}
+
+.c-Form-Select__Arrow-Down:after, .put-item-Form-Select__Arrow-Down:after {
+  content: "∨";
+  display: inline-block;
+  position: absolute;
+  font-size: 8px;
+  width: 10px;
+  height: 40px;
+  top: calc(50% - 12px);
+  left: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.c-Item-Function::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.c-Item-Function__srort {
+  float: left;
+}
+
+.c-Item-Function_pagenation {
+  float: left;
+}
+
+@media screen and (max-width: 800px) {
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+.c-Form-Drop__select > select {
+  font-size: 0.8rem;
+  height: 30px !important;
+  width: auto !important;
+  padding-left: 20px !important;
+}
+
+/*===========================================================
+      top
+===========================================================*/
+.top-Hero {
+  background: url();
+  background: cover;
+}
+
+.top-Sort-Form-Button {
+  float: left;
+}
+
+/*===========================================================
+      ログインと登録
+===========================================================*/
+/*ログイン・登録画面*/
+.login-reg-Form-Wrapper::after, .myprofile-Form-Wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.login-reg-Form-Wrapper__Login {
+  width: 47.5%;
+  margin-right: 5%;
+  float: left;
+}
+
+@media screen and (max-width: 600px) {
+  .login-reg-Form-Wrapper__Login {
+    margin-right: 0;
+    float: none;
+    width: 100%;
+  }
+}
+
+.login-reg-Form-Wrapper__Reg, .myprofile-Form-Wrapper__Info {
+  width: 47.5%;
+  float: left;
+}
+
+@media screen and (max-width: 600px) {
+  .login-reg-Form-Wrapper__Reg, .myprofile-Form-Wrapper__Info {
+    float: none;
+    width: 100%;
+  }
+}
+
+.login-reg-Form-Wrapper__Reset {
+  float: left;
+}
+
+.login-reg-Form-Wrapper__Login, .login-reg-Form-Wrapper__Reg, .myprofile-Form-Wrapper__Info,
+.login-reg-Form-Wrapper__Reset {
+  background: #fff;
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .login-reg-Form-Wrapper__Login, .login-reg-Form-Wrapper__Reg, .myprofile-Form-Wrapper__Info,
+  .login-reg-Form-Wrapper__Reset {
+    padding: 30px 30px;
+  }
+}
+
+.login-reg-Login > form > label,
+.login-reg-reg > form > label,
+.myprofile-Info > form > label,
+.login-reg-reset > form > label {
+  margin-top: 15px;
+  display: block;
+}
+
+/*===========================================================
+      アイテム系
+===========================================================*/
+.item-Main-Wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*サイドメニュー*/
+.item-Main-Wrapper__Item-Detail, .put-item-Wrapper-Start, .chat-Main-Wrapper__Item-Detail {
+  width: 50%;
+  float: left;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .item-Main-Wrapper__Item-Detail, .put-item-Wrapper-Start, .chat-Main-Wrapper__Item-Detail {
+    float: none;
+    width: 100%;
+    margin-top: 90px;
+  }
+}
+
+/*メインメニュー*/
+.item-Main-Wrapper__Comments-Area, .chat-Main-Wrapper__Chat-Board {
+  width: 50%;
+  float: left;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .item-Main-Wrapper__Comments-Area, .chat-Main-Wrapper__Chat-Board {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*
+<li class="item-Proposal u-clearfix"><!--関節クラス扱い-->
+  <div class="item-Proposal__person">
+      <a href="/item/Item-Detail.html">
+        <div class="item-person-img">
+            <img src="/images/bijo.jpg" alt="アイテム画像">
+            <!--擬似要素でたすき掛け-->
+        </div>
+        <div class="item-person-paragraph">
+            <h3 class="c-person-Name">美女すぎて辛い</h3>
+        </div>
+      </a>
+  </div>
+  <div class="item-Proposal__comment">
+    <p class="">aaaaaaa</p>
+  </div>
+</li>
+*/
+.item-Comments-Area {
+  background: #cfcece;
+  margin: 0 auto;
+  padding: 30px;
+  height: 600px;
+}
+
+@media screen and (max-width: 800px) {
+  .item-Comments-Area {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.item-Comments-Area .item-Comments-Area__list {
+  height: 80%;
+  background: #fff;
+  padding-left: 2%;
+  padding-right: 2%;
+  overflow: scroll;
+}
+
+.item-Comments-Area .item-Comments-Area__coment-form {
+  margin-top: 10px;
+  height: 15%;
+}
+
+.item-Comments-Area .item-Comments-Area__coment-form > form > label {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.item-Comments-List {
+  padding: 0;
+}
+
+.item-Proposal, .chat {
+  width: 100%;
+  height: 170px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .item-Proposal, .chat {
+    height: 130px;
+  }
+}
+
+.item-Proposal__person, .chat-Person-Img-Name {
+  width: 20%;
+  padding: 0.5%;
+  height: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .item-Proposal__person, .chat-Person-Img-Name {
+    width: 30%;
+  }
+}
+
+.item-person__img {
+  height: 80%;
+}
+
+.item-person__paragraph {
+  height: 20%;
+}
+
+.item-Proposal__comment, .chat__comment--floatLeft, .chat__comment--floatRight {
+  float: left;
+  width: 80%;
+  height: inherit;
+  padding-left: 2%;
+}
+
+@media screen and (max-width: 800px) {
+  .item-Proposal__comment, .chat__comment--floatLeft, .chat__comment--floatRight {
+    width: 70%;
+  }
+}
+
+.item-Proposal__comment > p, .chat__comment--floatLeft > p, .chat__comment--floatRight > p {
+  background: #fcc;
+  height: inherit;
+  padding: 2%;
+}
+
+.Item-Img-Wrapper, .put-Item-Img-Wrapper {
+  width: 50%;
+  float: left;
+}
+
+.Item-Img-Wrapper::after, .put-Item-Img-Wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .Item-Img-Wrapper, .put-Item-Img-Wrapper {
+    width: 100%;
+  }
+}
+
+.item-Detail, .put-item-Detail {
+  border: 3px dotted #e0cfcf;
+  border-radius: 5%;
+  width: 95%;
+  height: auto;
+  background: white;
+  padding: 30px;
+  margin: auto;
+}
+
+.item-Detail__img, .put-item-Img {
+  position: relative;
+  float: left;
+  padding: 0 2%;
+}
+
+.item-Detail__img > img, .put-item-Img > img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.item-Detail__img:first-child, .put-item-Img:first-child {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .item-Detail__img:first-child, .put-item-Img:first-child {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .item-Detail__img:first-child, .put-item-Img:first-child {
+    width: 50%;
+  }
+}
+
+.item-Detail__img:not(:first-child), .put-item-Img:not(:first-child) {
+  width: 50%;
+  height: 80px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .item-Detail__img:not(:first-child), .put-item-Img:not(:first-child) {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .item-Detail__img:not(:first-child), .put-item-Img:not(:first-child) {
+    width: 50%;
+  }
+}
+
+.item-Detail__profile, .put-item-Detail__profile {
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .item-Detail__profile, .put-item-Detail__profile {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .item-Detail__profile, .put-item-Detail__profile {
+    float: none;
+  }
+}
+
+.item-Detail__profile > h3, .put-item-Detail__profile > h3 {
+  background: #f19a67;
+  font-weight: bold;
+}
+
+.item-Detail__exhibitor-claim, .put-item-Claim {
+  height: 140px;
+}
+
+.item-Detail__exhibitor-claim > p, .put-item-Claim > p {
+  border: 3px dotted #fcc;
+  height: 90%;
+}
+
+.item-Profile__description {
+  margin-top: 30px;
+}
+
+.item-More-Details {
+  height: auto;
+}
+
+.item-More-Details__explain, .put-item-More-Details__thumb {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .item-More-Details__explain, .put-item-More-Details__thumb {
+    width: 47.5%;
+    float: left;
+    padding: 2%;
+    margin-right: 5%;
+  }
+}
+
+.item-More-Details__feature, .put-item-More-Details__feature {
+  border-collapse: collapse;
+  width: 70%;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .item-More-Details__feature, .put-item-More-Details__feature {
+    width: 47.5%;
+    float: left;
+    margin-top: 0;
+  }
+}
+
+.item-More-Details__feature tbody > tr, .put-item-More-Details__feature tbody > tr {
+  border-top: 1px solid #cfcece;
+  border-bottom: 1px solid #cfcece;
+  height: 45px;
+}
+
+.item-More-Details__feature tbody > tr > th, .put-item-More-Details__feature tbody > tr > th {
+  text-align: left;
+  font-weight: normal;
+  font-size: 0.8px;
+}
+
+.item-More-Details__feature tbody > tr > td, .put-item-More-Details__feature tbody > tr > td {
+  text-align: right;
+  font-size: 0.7px;
+}
+
+.item-detail-Form-Button .item-detail-Form-Button--isDisable {
+  display: inline-block;
+  line-height: 40px;
+  width: 100%;
+}
+
+/*
+.item-chat-form__wrapper {
+  position: relative;
+@at-root {
+ .item-chat-form__input {
+
+ }
+ 
+ .item-chat-form__submit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+ }
+}}
+*/
+/*===========================================================
+                  出品する
+===========================================================*/
+.put-item-Wrapper-Start {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .put-item-Detail {
+    width: 980px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .put-Item-Img-Wrapper {
+    width: 100%;
+  }
+}
+
+.put-item-Detail__profile {
+  padding: 0 0 0 2%;
+}
+
+@media screen and (max-width: 800px) {
+  .put-item-Img {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .put-item-Img:first-child {
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .put-item-Img:first-child {
+    width: 60%;
+    margin-right: 4%;
+  }
+}
+
+.put-item-Img:not(:first-child) {
+  width: 50%;
+}
+
+@media screen and (min-width: 1025px) {
+  .put-item-Img:not(:first-child) {
+    height: 200px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .put-item-Img:not(:first-child) {
+    width: 36%;
+  }
+}
+
+.put-item-More-Details__feature tbody > tr {
+  height: 45px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+.put-item-Claim {
+  margin-top: 30px;
+  height: 190px;
+}
+
+.put-item-Title__input {
+  width: 100%;
+}
+
+.put-item-More-Details__textarea {
+  width: 100%;
+  height: 100%;
+}
+
+.put-item-Form-Select {
+  display: inline-block;
+}
+
+.put-item-Form-Select__Arrow-Down {
+  margin: 0;
+}
+
+.put-item-Form-Select__Arrow-Down:after {
+  color: black;
+}
+
+.put-item-Select-Down {
+  width: 80px;
+  height: 30px;
+  margin: 2.5px 0;
+  color: black;
+}
+
+.put-item-More-Details__explain {
+  height: 140px;
+}
+
+.put-item-Img {
+  position: relative;
+}
+
+.put-item-Img > img {
+  background: #f1efeb;
+}
+
+.put-item-File {
+  background: #f1efeb;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+/*===========================================================
+                  マイページ
+===========================================================*/
+.mypqge-profle {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.mypage-item-List__obj-Thumbnail {
+  height: 250px;
+}
+
+.mypage-iteme-Thumbnail__img {
+  height: 60%;
+}
+
+.mypage-item-Thumbnail__paragraph {
+  height: 40%;
+}
+
+.mypage-Link-List {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.mypage-Link-List > li {
+  list-style: none;
+}
+
+/*===========================================================
+                  ユーザー情報修正
+===========================================================*/
+.myprofile-Form-Wrapper__Info {
+  width: 100%;
+}
+
+.My-Img {
+  overflow: hidden;
+  background: #f1efeb;
+  height: 300px;
+  padding: 3%;
+}
+
+.My-Img__display {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.My-Img-LivePre {
+  position: relative;
+  padding-bottom: 60px;
+  height: 360px;
+}
+
+.My-Img-LivePre__note {
+  position: absolute;
+  bottom: 40px;
+}
+
+.My-Img-LivePre__input-file {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding-top: 95%;
+}
+
+@media screen and (max-width: 500px) {
+  .My-Img-LivePre__input-file {
+    padding-top: 115%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .My-Img-LivePre__input-file {
+    padding-top: 140%;
+    left: -25px;
+  }
+}
+
+/*===========================================================
+                  chat-board
+===========================================================*/
+.chat-Main-Wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.chat-Main-Wrapper__Item-Detail {
+  width: 30%;
+}
+
+@media screen and (max-width: 800px) {
+  .chat-Main-Wrapper__Item-Detail {
+    float: none;
+    width: 100%;
+    margin-top: 90px;
+  }
+}
+
+.chat-Main-Wrapper__Chat-Board {
+  width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .chat-Main-Wrapper__Chat-Board {
+    float: none;
+    width: 100%;
+  }
+}
+
+.chat-Chat-Board {
+  margin: 0 auto 10px auto;
+}
+
+.chat-Chat-Board::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .chat-Chat-Board {
+    padding: 0 15px;
+  }
+}
+
+.chat-Person-Img-Name {
+  height: 185px;
+  width: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  .chat-Person-Img-Name {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .chat-Person-Img-Name {
+    float: none;
+  }
+}
+
+.chat-person-img {
+  overflow: hidden;
+  height: 80%;
+}
+
+.chat-person-img > img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.chat-Person-Comment {
+  border: 3px dotted #fcc;
+  border-radius: 3%;
+  background: #fff;
+  margin-left: 2%;
+  width: calc(100% - 4% - 200px);
+  height: 185px;
+  float: left;
+  display: block;
+}
+
+@media screen and (max-width: 500px) {
+  .chat-Person-Comment {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    float: none;
+    height: auto;
+    min-height: 100px;
+    max-height: 185px;
+  }
+}
+
+.chat-Comment {
+  float: right;
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .chat-Comment {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .chat-Comment {
+    height: auto;
+    max-height: 150px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .chat-Comment {
+    height: 130px;
+  }
+}
+
+.chat {
+  height: 60px;
+}
+
+.chat__comment--floatRight {
+  float: right !important;
+}

@@ -1,0 +1,304 @@
+/*ぱくず本体*/
+.c-Pan {
+    // @include --mediaTab{
+    //     @include --isUnvisible();
+    // }
+
+    height: 40px;
+    background-color: rgb(245, 243, 238);
+@at-root {
+    .c-Pan__list { 
+        //text-align: center;
+        float: left;
+        @include clearfix();
+        > li {
+            display: inline-block;
+            line-height: 40px;
+            font-size: 13px;
+            + li {
+                margin-left: 30px;
+            }
+
+            > a {
+                color: #00b9ef;
+                position: relative;
+                @include u-Arrow-basic(">");
+            }
+
+            //矢印のプロパティを更新
+            > a:after {
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+                width: 10px;
+                height: 40px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                right: -20px;
+
+            }
+        }
+    }
+}
+}
+
+/*ボタン*/
+.c-Form-Button {
+  margin: 15px;
+  background: rgba(41, 39, 39, 0.192);
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5%;
+
+  input {
+    line-height: 40px;
+    width: 100%;
+  }
+}
+
+/*アイテム関連*/
+/*アイテム　サムネイル*/
+.c-Item-Function {
+
+}
+.c-Item-List {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include clearfix;
+
+@at-root {
+  //各アイテムごとの塊
+  .c-Item-List__Item-Thumbnail {
+    float: left;
+    width: 20%;//仮の数値　１行５列で表示　ここがJSで変わる
+              //vwでやろうかな
+    height: 200px;//ここはペジネーションで変わる
+  }
+}}
+
+.c-Item-Thumbnail {
+  padding: 5%;
+  float: left;
+  border: 3px dotted #fcc;
+  border-radius: 5%;
+  width: 90%;
+  height: 90%;
+  background: white;
+
+  //シャドウ
+  //クリックしたら押せること
+@at-root {
+ 
+  .c-Item-Thumbnail__img {
+    position: relative;
+    height: 60%;
+    > img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+  .c-Item-Thumbnail__paragraph {
+    padding: 2%;
+    height: 40%;
+
+    > h3 {
+      background: rgb(241, 154, 103);
+      font-weight: bold;
+    }
+  }
+
+}}
+
+.c-Item-List {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include clearfix;
+
+@at-root {
+  //各アイテムごとの塊
+  .c-Item-List__Item-Thumbnail {
+    float: left;
+    width: 20%;//仮の数値　１行５列で表示　ここがJSで変わる
+              //vwでやろうかな
+    height: 200px;//ここはペジネーションで変わる
+  }
+}}
+
+
+/*============================================
+        クラス アイテムやプロフィールで使う
+============================================*/
+
+.c-obj-List {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  @include clearfix;
+
+@at-root {
+  //各アイテムごとの塊
+  .c-obj-List__obj-Thumbnail {
+    float: left;
+    width: 20%;//仮の数値　１行５列で表示　ここがJSで変わる
+              //vwでやろうかな
+    //height: 200px;//ここはペジネーションで変わる
+    height: 250px;
+
+    @include --mediaMax(800px) {
+      width: 33%;
+    }
+    
+    @include --mediaMax(500px) {
+      height: auto;
+      max-height: 150px;
+    }
+  }
+
+}}
+.c-obj-Thumbnail {
+  padding-top: 5%;
+  float: left;
+  border: 3px dotted #fcc;
+  border-radius: 5%;
+  width: 90%;
+  height: 90%;
+  background: white;
+
+  //シャドウ
+  //クリックしたら押せること
+@at-root {
+ 
+  .c-obj-Thumbnail__img {
+    position: relative;
+    height: 70%;
+    > img {
+      max-width: 100%;
+      max-height: 100%;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+  .c-obj-Thumbnail__paragraph {
+    padding: 2%;
+    height: 30%;
+
+    @include --mediaMax(500px) {
+      display: none;
+    }
+
+    > h3 {
+      background: rgb(241, 154, 103);
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    > p {
+      font-size: 0.7rem;
+    }
+  }
+
+  .c-obj-Thumbnail__link-list {
+    font-size: 0.7rem;
+
+    @include --mediaMax(500px) {
+      font-size: 0.1rem;
+    }
+  }
+
+}}
+/*============================================
+        フォーム
+============================================*/
+
+/*セレクトフォーム*/
+.c-Form-Select {
+
+@at-root {
+  .c-Form-Select__label {
+    display: block;
+  }
+ .c-Form-Select__wrapper {
+    margin: 15px;
+   display: inline-block;
+
+ }
+}}
+.c-Form-Select-Down {
+  background: rgba(41, 39, 39, 0.192);
+  display: inline-block;
+  width: 170px;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 10px;
+  color: #fff;
+}
+
+/*
+<div class="c-Form-Select">
+  <div class="c-Form-Select__wrapper c-Form-Select__Arrow-Down ">
+    <select name="" id="">
+      <option value="">ファッション</option>
+      <option value="">本</option>
+      <option value="">車</option>
+    </select>
+  </div>
+</div>
+*/
+.c-Form-Select__Arrow-Down {
+  position: relative;
+  &:after {
+    content: "∨";
+    display: inline-block;
+    position: absolute;
+    font-size: 8px;
+    width: 10px;
+    height: 40px;
+    top: calc(50% - 12px);
+    left: 10px;
+    color: #fff;
+    font-size: 15px;
+  }
+}
+
+.c-Item-Function {
+  @include clearfix;
+
+@at-root {
+  .c-Item-Function__srort {
+    float: left;
+  }
+  .c-Item-Function_pagenation {
+    float: left;
+  }
+}}
+
+
+
+.c-Form-Drop {
+
+@at-root {
+
+  label {
+    @include --mediaMax(800px) {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+
+  .c-Form-Drop__select {
+    > select {
+      font-size: 0.8rem;
+      height: 30px!important;
+      width: auto!important;
+      padding-left: 20px!important;
+    }
+  }
+
+
+}}

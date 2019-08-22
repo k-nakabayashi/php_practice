@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/freemarket//css/style.css">
+  <title>トップ画面</title>
+</head>
+<body>
+
+<!--未ログインユーザー用のヘッダー-->
+<header class="l-Header">
+    <div class="l-Header-Wrapper">
+        <div class="l-Header-Wrapper__logo">
+            <a href="">イメージロゴ</a>
+        </div>
+        <ul class="l-Header-Wrapper__list l-Header-List">
+            <li><a href="/login/login-reg.html" class="u-Arrow-Down">登録・ログイン</a></li>
+            <li><a href="/item/Item-List.html" class="c-Arrow-Down">商品一覧</a></li>
+            <li><a href="/" class="u-Arrow-Down">Top</a></li>
+        </ul>
+    </div>
+</header>
+
+<!--ログイン済みユーザー用のヘッダー-->
+<!--
+<header class="l-header">
+    <div class="l-Header-Wrapper">
+        <div class="l-Header-Wrapper__Logo">
+            <a href="">イメージロゴ</a>
+        </div>
+        <ul class="l-Header-Wrapper__list l-Header-List">
+            <li><a href="./my/mypage.html" class="u-Arrow-Down">マイページ</a></li>
+            <li><a href="./item/item-list.html" class="u-Arrow-Down">商品一覧</a></li>
+            <li><a href="/" class="u-Arrow-Down">Top</a></li>
+            <li><a href="" class="u-Arrow-Down">ログアウト</a></li>
+        </ul>
+    </div>
+</header>
+-->
+
+<main>
+<div class="u-Container-Y--large">
+  <div class="l-Main-Wrapper">
+    <div class="l-Main-Wrapper__Side-Menu">
+        <div class="l-Side-Menu">
+          <form action="">
+            <label for="">キーワード検索</label>
+            <textarea class="u-Form-back__textarea--white" name="" id="" placeholder="例) レディース　パンツ　春物"></textarea>
+            <div class="c-Form-Select u-has-Top-Margin20">
+              <label class="c-Form-Select__label">カテゴリ</label>
+              <div class="c-Form-Select__wrapper c-Form-Select__Arrow-Down u-delete-Div-Margin-Left-Top u-has-Top-Margin20">
+                <select class="c-Form-Select-Down" name="" id="">
+                    <option value="">ファッション</option><!--５列６行-->
+                    <option value="">本</option><!--４列５行-->
+                    <option value="">車</option><!--２列５行-->
+                </select>
+              </div>
+            </div>
+            <div class="c-Form-Button u-delete-Div-Margin-Left">
+                <input type="submit" value="検索する">
+            </div>
+          </form>
+        </div>
+    </div>
+        <!--l-Side-Menu-->
+    <div class="l-Main-Wrapper__Main-Menu">
+        <div class="l-Main-Menu c-Form-Select-Parent"><!--幅と余白は確定-->
+
+          <!--機能　ソートとペジネーション-->
+          <div class="c-Item-Function c-Form-Select">
+
+              <!---ソート-->
+            <div class="c-Item-Function__srort">              
+              <div class="c-Form-Select">
+                <label>表示順の変更</label>
+                <div class="c-Form-Select__wrapper c-Form-Select__Arrow-Down">
+                  <select class="c-Form-Select-Down" name="" id="">
+                    <option value="">投稿が新しい順</option>
+                    <option value="">盛り上がってる順</option>
+                    <option value="">評判が高い順</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!--ペジネーション switch文で受け取る-->
+            <div class="c-Item-Function_pagenation">
+                <div class="c-Form-Select">
+                  <label>表示件数の変更</label>
+                  <div class="c-Form-Select__wrapper c-Form-Select__Arrow-Down">
+                    <select class="c-Form-Select-Down" name="" id="">
+                        <option value="">30件ずつ表示</option><!--５列６行-->
+                        <option value="">20件ずつ表示</option><!--４列５行-->
+                        <option value="">10件ずつ表示</option><!--２列５行-->
+                    </select>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+
+          <!--一覧表示--->
+          <ul class="c-obj-List">
+            <li class="c-obj-List__obj-Thumbnail"><!--関節クラス扱い-->
+                <div class="c-obj-Thumbnail">
+                    <a href="/item/Item-Detail.html">
+                        <div class="c-obj-Thumbnail__img">
+                            <img src="/images/watch.jpg" alt="アイテム画像">
+                            <!--擬似要素でたすき掛け-->
+                        </div>
+                        <div class="c-obj-Thumbnail__paragraph">
+                            <h3 class="u-Text-Style5">タイトル</h3>
+                            <p class="u-Text-Style5 --hideOverflow">サムネイルサムネイル</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="c-obj-List__obj-Thumbnail"><!--関節クラス扱い-->
+                <div class="c-obj-Thumbnail">
+                    <a href="/item/Item-Detail.html">
+                        <div class="c-obj-Thumbnail__img">
+                            <img src="/images/bijo.jpg" alt="アイテム画像">
+                            <!--擬似要素でたすき掛け-->
+                        </div>
+                        <div class="c-obj-Thumbnail__paragraph">
+                            <h3 class="u-Text-Style5">タイトル</h3>
+                            <p class="u-Text-Style5 --hideOverflow">サムネイルサムネイル</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="c-obj-List__obj-Thumbnail"><!--関節クラス扱い-->
+              <div class="c-obj-Thumbnail">
+                  <a href="/item/Item-Detail.html">
+                      <div class="c-obj-Thumbnail__img">
+                          <img src="/images/bijo.jpg" alt="アイテム画像">
+                          <!--擬似要素でたすき掛け-->
+                      </div>
+                      <div class="c-obj-Thumbnail__paragraph">
+                          <h3 class="u-Text-Style5">タイトル</h3>
+                          <p class="u-Text-Style5 --hideOverflow">サムネイルサムネイル</p>
+                      </div>
+                  </a>
+              </div>
+          </li>            <li class="c-obj-List__obj-Thumbnail"><!--関節クラス扱い-->
+            <div class="c-obj-Thumbnail">
+                <a href="/item/Item-Detail.html">
+                    <div class="c-obj-Thumbnail__img">
+                        <img src="/images/bijo.jpg" alt="アイテム画像">
+                        <!--擬似要素でたすき掛け-->
+                    </div>
+                    <div class="c-obj-Thumbnail__paragraph">
+                        <h3 class="u-Text-Style5">タイトル</h3>
+                        <p class="u-Text-Style5 --hideOverflow">サムネイルサムネイル</p>
+                    </div>
+                </a>
+            </div>
+        </li>            <li class="c-obj-List__obj-Thumbnail"><!--関節クラス扱い-->
+          <div class="c-obj-Thumbnail">
+              <a href="/item/Item-Detail.html">
+                  <div class="c-obj-Thumbnail__img">
+                      <img src="/images/bijo.jpg" alt="アイテム画像">
+                      <!--擬似要素でたすき掛け-->
+                  </div>
+                  <div class="c-obj-Thumbnail__paragraph">
+                      <h3 class="u-Text-Style5">タイトル</h3>
+                      <p class="u-Text-Style5 --hideOverflow">サムネイルサムネイル</p>
+                  </div>
+              </a>
+          </div>
+      </li>            <li class="c-obj-List__obj-Thumbnail"><!--関節クラス扱い-->
+        <div class="c-obj-Thumbnail">
+            <a href="/item/Item-Detail.html">
+                <div class="c-obj-Thumbnail__img">
+                    <img src="/images/bijo.jpg" alt="アイテム画像">
+                    <!--擬似要素でたすき掛け-->
+                </div>
+                <div class="c-obj-Thumbnail__paragraph">
+                    <h3 class="u-Text-Style5">タイトル</h3>
+                    <p class="u-Text-Style5 --hideOverflow">サムネイルサムネイル</p>
+                </div>
+            </a>
+        </div>
+    </li>            <li class="c-obj-List__obj-Thumbnail"><!--関節クラス扱い-->
+      <div class="c-obj-Thumbnail">
+          <a href="/item/Item-Detail.html">
+              <div class="c-obj-Thumbnail__img">
+                  <img src="/images/bijo.jpg" alt="アイテム画像">
+                  <!--擬似要素でたすき掛け-->
+              </div>
+              <div class="c-obj-Thumbnail__paragraph">
+                  <h3 class="u-Text-Style5">タイトル</h3>
+                  <p class="u-Text-Style5 --hideOverflow">サムネイルサムネイル</p>
+              </div>
+          </a>
+      </div>
+  </li>            <li class="c-obj-List__obj-Thumbnail"><!--関節クラス扱い-->
+    <div class="c-obj-Thumbnail">
+        <a href="/item/Item-Detail.html">
+            <div class="c-obj-Thumbnail__img">
+                <img src="/images/bijo.jpg" alt="アイテム画像">
+                <!--擬似要素でたすき掛け-->
+            </div>
+            <div class="c-obj-Thumbnail__paragraph">
+                <h3 class="u-Text-Style5">タイトル</h3>
+                <p class="u-Text-Style5 --hideOverflow">サムネイルサムネイル</p>
+            </div>
+        </a>
+    </div>
+</li>
+
+          </ul>
+
+
+        </div>
+        <!--l-Main-Menu-->
+    </div>
+  </div>
+</div>
+<!--u-Container-Y--large-->
+</main>
+<footer class="l-Footer">
+    <div class="l-Footer-container">
+        <div class="l-Footer-Wrapper">
+            <div class="l-Footer-Wrapper__profile">
+                <ul class="l-Footer-Profile__list">
+                    <li><a href="#"></a></li>
+                    <li><p class="c-Text-Style">iYell株式会社</p></li>
+                    <li><p class="c-Text-Style5">〒150-0043</p></li>
+                    <li><p class="c-Text-Style5">東京都渋谷区道玄坂2-16-8 道玄坂坂本ビル7階</p></li>
+                    <li><p class="c-Text-Style10">Tel: 03-6455-1005 (代表) </p></li>
+                    <li><p class="c-Text-Style5">Fax: 03-6455-1004</p></li>
+                </ul>
+                <p class="l-Footer-Profile__link">
+                    <a href="#">
+                        採用サイト
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="https://ja-jp.facebook.com/iYell.corp/" target="_blank"><img class="c-Facebook-Link" src="https://iyell.co.jp/wp-content/themes/iyell-corp/img/sns_01.png" alt=""></a>
+                    <a href="https://twitter.com/iyell_happyell" target="_blank"><img class="c-Twitter-Link" src="https://iyell.co.jp/wp-content/themes/iyell-corp/img/sns_03.png" alt=""></a>
+                </p>
+            </div>
+            <div class="l-Footer-Wrapper__links">
+                <ul class="l-Footer-Map">
+                    <li class="l-Footer-Map__text"><a href="">ホーム</a></li>
+                    <li class="l-Footer-Map__text c-Text-Style10"><a href="">経営方針</a></li>
+                    <li class="l-Footer-Map__list">
+                        <ul>
+                            <li class="c-Text-Style5"><a href="">経営理念</a></li>
+                            <li class="c-Text-Style5"><a href="">代表者メッセージ</a></li>
+                            <li class="c-Text-Style5"><a href="">ビジョン・ミッション</a></li>
+                            <li class="c-Text-Style5"><a href="">バリュー・行動規範</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="l-Footer-Map">
+                    <li class="l-Footer-Map__text"><a href="">プラットフォーム</a></li>
+                    <li class="l-Footer-Map__text c-Text-Style10"><a href="">サービス</a></li>
+                    <li class="l-Footer-Map__list">
+                        <ul>
+                            <li class="c-Text-Style5"><a href="">住宅事業者向けローンテック</a></li>
+                            <li class="c-Text-Style5"><a href="">住宅ローンの窓口</a></li>
+                            <li class="c-Text-Style5"><a href="">金融期間向け住宅ローンテック</a></li>
+                            <li class="c-Text-Style5"><a href="">住宅ローンの窓口ONLINE</a></li>
+                            <li class="c-Text-Style5"><a href="">いえーるコンシェル</a></li>
+                            <li class="c-Text-Style5"><a href="">いえーる コンシェル 不動産投資版</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="l-Footer-Map">
+                    <li class="l-Footer-Map__text"><a href="">メンバー</a></li>
+                    <li class="l-Footer-Map__text c-Text-Style10"><a href="">アソビゴコロ</a></li>
+                    <li class="l-Footer-Map__list">
+                        <ul>
+                            <li class="c-Text-Style5"><a href="">オフィシャルキャラクター</a></li>
+                            <li class="c-Text-Style5"><a href="">スポーツ観戦</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="l-Footer-Map">
+                    <li class="l-Footer-Map__text"><a href="">会社情報</a></li>
+                    <li class="l-Footer-Map__list">
+                        <ul>
+                            <li class="c-Text-Style5"><a href="">会社概要</a></li>
+                            <li class="c-Text-Style5"><a href="">個人情報保護方針</a></li>
+                            <li class="c-Text-Style5"><a href="">お問い合わせ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+        <p class="l-Footer-Copyright">Copyright © 2018 The iYell Co,. Ltd All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

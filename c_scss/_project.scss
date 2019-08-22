@@ -1,0 +1,793 @@
+/*===========================================================
+      top
+===========================================================*/
+.top-Hero {
+  background: url();
+  background: cover;
+  
+}
+
+.top-Sort-Form-Button {
+  @extend .c-Form-Button;
+  float: left;
+}
+
+/*===========================================================
+      ログインと登録
+===========================================================*/
+
+/*ログイン・登録画面*/
+.login-reg-Form-Wrapper {
+  @include clearfix;
+@at-root {
+
+  .login-reg-Form-Wrapper__Login {
+    width: 47.5%;
+    margin-right: 5%;
+    float: left;
+
+    @include --mediaMax(600px) {
+      margin-right: 0;
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .login-reg-Form-Wrapper__Reg {
+    width: 47.5%;
+    float: left;
+
+    @include --mediaMax(600px) {
+      float: none;
+      width: 100%;
+    }
+  }
+  .login-reg-Form-Wrapper__Reset {
+    float: left;
+  }
+}}
+
+.login-reg-Form-Wrapper__Login,
+.login-reg-Form-Wrapper__Reg,
+.login-reg-Form-Wrapper__Reset {
+  background: #fff;
+  padding: 0 30px;
+  margin-bottom: 30px;
+
+  @include --mediaMax(600px) {
+    padding: 30px 30px;
+  }
+}
+
+.login-reg-Login,
+.login-reg-reg,
+.login-reg-reset {
+  > form {
+    > label {
+      margin-top: 15px;
+      display: block;
+    }
+  }
+}
+
+/*===========================================================
+      アイテム系
+===========================================================*/
+.item-Main-Wrapper {
+  //position: relative;
+  @include clearfix;
+
+@at-root {
+  /*サイドメニュー*/
+
+  .item-Main-Wrapper__Item-Detail {
+    //position: fixed;
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+
+    @include --mediaMax(800px) {
+      float: none;
+      width: 100%;
+      margin-top: 90px;
+    }
+  }
+
+  /*メインメニュー*/
+  .item-Main-Wrapper__Comments-Area {
+    width: 50%;
+    //margin-left: 60%;
+    float: left;
+    margin-top: 30px;
+
+    @include --mediaMax(800px) {
+      float: none;
+      width: 100%;
+    }
+  }
+}}
+
+/*
+<li class="item-Proposal u-clearfix"><!--関節クラス扱い-->
+  <div class="item-Proposal__person">
+      <a href="/item/Item-Detail.html">
+        <div class="item-person-img">
+            <img src="/images/bijo.jpg" alt="アイテム画像">
+            <!--擬似要素でたすき掛け-->
+        </div>
+        <div class="item-person-paragraph">
+            <h3 class="c-person-Name">美女すぎて辛い</h3>
+        </div>
+      </a>
+  </div>
+  <div class="item-Proposal__comment">
+    <p class="">aaaaaaa</p>
+  </div>
+</li>
+*/
+.item-Comments-Area{
+  background: rgb(207, 206, 206);
+  margin: 0 auto;
+  padding: 30px;
+  height: 600px;
+
+  @include --mediaMax(800px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .item-Comments-Area__list {
+    height: 80%;
+    background: #fff;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow: scroll;
+  }
+  .item-Comments-Area__coment-form {
+    margin-top: 10px;
+    height: 15%;
+    > form {
+      > label {
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+      }
+    }
+  }
+
+}
+
+.item-Comments-List {
+  @extend .c-obj-List;
+  padding: 0;
+}
+
+.item-Proposal {
+  @extend .c-obj-List__obj-Thumbnail;
+  width: 100%;
+  height: 170px;
+  margin-top: 20px;
+
+  @include --mediaMax(800px) {
+    height: 130px;
+  }
+}
+.item-Proposal__person {
+  @extend .c-obj-Thumbnail;
+  width: 20%;
+  padding: 0.5%;
+  height: 70%;
+
+  @include --mediaMax(800px) {
+    width: 30%;
+  }
+}
+.item-person__img {
+  @extend .c-obj-Thumbnail__img;
+  height: 80%;
+}
+
+.item-person__paragraph {
+  @extend .c-obj-Thumbnail__paragraph;
+  height: 20%;
+}
+
+.item-Proposal__comment {
+    float: left;
+    width: 80%;
+    height: inherit;
+    padding-left: 2%;
+
+    @include --mediaMax(800px) {
+      width: 70%;
+    }
+
+    > p {
+      background: #fcc;
+      height: inherit;
+      padding: 2%;
+    }
+}
+
+.Item-Img-Wrapper{
+  width: 50%;
+  float: left;
+  @include clearfix;
+  @include --mediaMax(800px) {
+    width: 100%;
+  }
+}
+
+.item-Detail {
+  border: 3px dotted rgb(224, 207, 207);
+  border-radius: 5%;
+  width: 95%;
+  height: auto; //90%;
+  background: white;
+  padding: 30px;
+  margin: auto;
+
+@at-root {
+  .item-Detail__img {
+    position: relative;
+    float: left;
+    padding: 0 2%;
+     //height: 60%;
+
+    > img {
+      max-width: 100%;
+      max-height: 100%;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+
+  .item-Detail__img:first-child {
+    width: 100%;
+    height: 240px;
+    margin-bottom: 20px;
+    //width: 50%;
+    @include --mediaBetween(800px, 1000px){
+      float: none;
+      width: 100%;
+    }
+    @include --mediaMax(800px) {
+      width: 50%;
+    }
+  }
+
+  .item-Detail__img:not(:first-child) {
+    width: 50%;
+    height: 80px;
+    @include --mediaBetween(800px, 1000px){
+      float: none;
+      width: 100%;
+    }
+    @include --mediaMax(800px) {
+      width: 50%;
+    }
+  }
+
+  .item-Detail__profile {
+    //padding: 2%;
+    //height: 40%;
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+
+    @include --mediaMax(1000px) {
+      width: 100%;
+    }
+
+    @include --mediaBetween(800px, 1000px){
+      float: none;
+    }
+
+    > h3 {
+      background: rgb(241, 154, 103);
+      font-weight: bold;
+    }
+  }
+
+  .item-Detail__exhibitor-claim {
+    //height: 40%;
+    height: 140px;
+
+    > p {
+      border: 3px dotted #fcc;
+      height: 90%;
+    }
+  }
+}}
+//.item-Detail
+
+
+
+//緊急クラス アイテムの画像とプロフィールをラップし
+//出品者の主旨と分けた
+.item-Detail-wrapper {
+  //height: 60%;
+}
+
+.item-Profile {
+@at-root {
+  .item-Profile__title {
+
+  }
+  .item-Profile__description {
+    margin-top: 30px;
+  }
+
+  .item-Profile__Exhibitor {
+
+  }
+}}
+.item-More-Details {
+  height: auto;
+@at-root {
+  .item-More-Details__explain {
+    overflow: hidden;
+    
+    @include  --mediaBetween(800px, 1000px) {
+      width: 47.5%;
+      float: left;
+      padding: 2%;
+      margin-right: 5%;
+    }
+
+  }
+
+  .item-More-Details__feature {
+    border-collapse:collapse;
+    width: 70%;
+    margin-top: 30px;
+    @include  --mediaBetween(800px, 1000px) {
+      width: 47.5%;
+      float: left;
+      margin-top: 0;
+    }
+
+    tbody {
+        > tr {
+          border-top:1px solid #cfcece;
+          border-bottom:1px solid #cfcece;
+          height: 45px;
+        }
+        > tr > th {
+          text-align: left;
+          font-weight: normal;
+          font-size: 0.8px;
+        }
+        > tr > td {
+          text-align: right;
+          font-size: 0.7px;
+        }
+      }
+  }
+}}
+
+.item-detail-Form-Button {
+  @extend .c-Form-Button;
+  
+  .item-detail-Form-Button--isDisable {
+    display: inline-block;
+    line-height: 40px;
+    width: 100%;
+  }
+}
+
+
+/*
+.item-chat-form__wrapper {
+  position: relative;
+@at-root {
+ .item-chat-form__input {
+
+ }
+ 
+ .item-chat-form__submit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+ }
+}}
+*/
+/*===========================================================
+                  出品する
+===========================================================*/
+
+.put-item-Wrapper-Start {
+  @extend .item-Main-Wrapper__Item-Detail;
+  width: 100%;
+}
+.put-item-Detail {
+  @extend .item-Detail;
+  //height: 530px;
+  @include --mediaMin(1024px) {
+    width: 980px;
+  }
+}
+.put-Item-Img-Wrapper {
+  @extend .Item-Img-Wrapper;
+
+  @include --mediaMax(770px) {
+    width: 100%;
+    @at-root {
+      .put-item-Img {
+        > img {
+          //max-width: 80%;
+          //max-height: 80%;
+        }
+      }
+    }
+  }
+}
+
+.put-item-Detail__Profile {
+  //@extend .item-Detail__Profile;
+  //height: 230px;
+  //width: 900px;
+}
+.put-item-Detail__profile {
+  @extend .item-Detail__profile;
+  padding: 0 0 0 2%;
+}
+.put-item-Img {
+  @extend .item-Detail__img;
+  @include --mediaMax (800px) {padding: 0;}
+
+@at-root {
+  .put-item-Img:first-child {
+    
+    @include --mediaMin(1025px) {
+      height: 360px;
+    }
+
+    @include --mediaMax (800px) {
+      width: 60%;
+      margin-right: 4%;
+    }
+  }
+
+  .put-item-Img:not(:first-child) {
+    
+    width: 50%;
+    @include --mediaMin(1025px) {
+      height: 200px;
+      margin-top: 30px;
+    }
+    @include --mediaMax (800px) {
+      width: 36%;
+    }
+  }
+}}
+
+.put-item-More-Details__thumb{
+  @extend .item-More-Details__explain;
+  @include --mediaMin (1025px) {
+   // margin-top: 60px;
+  }
+}
+.put-item-More-Details__feature {
+  @extend .item-More-Details__feature;
+  @include --mediaMin (1025px) {
+    //margin-top: 60px;
+  }
+
+  tbody {
+    > tr {
+      height: 45px;
+      padding-top: 2.5px;
+      padding-bottom: 2.5px;
+
+      > td {
+        //display: block;
+        //height: 45px;
+        //margin: 2.5px 0;
+      }
+    }
+  }
+}
+
+.put-item-Claim {
+  @extend .item-Detail__exhibitor-claim;
+  margin-top: 30px;
+  height: 190px;
+}
+
+.put-item-Title__input {
+  width: 100%;
+  
+}
+.put-item-More-Details__textarea {
+  width: 100%;
+  height: 100%;
+}
+.put-item-Form-Select {
+  @extend .c-Form-Select;
+  display: inline-block;
+@at-root {
+  .put-item-Form-Select__Select-Down {
+    @extend .c-Form-Select__wrapper;
+    
+  }
+
+  .put-item-Form-Select__Arrow-Down {
+    @extend .c-Form-Select__Arrow-Down;
+    margin: 0;
+    &:after {
+      color: black;
+    }
+  }
+}}
+.put-item-Select-Down {
+  @extend .c-Form-Select-Down;
+  width: 80px;
+  height: 30px;
+  margin: 2.5px 0;
+  color: black;
+}
+.put-item-More-Details__explain {
+  height: 140px;
+}
+//画像系
+.put-item-Img {
+  
+  position: relative;
+
+  > img {
+    background: #f1efeb; //jsでコントロール
+  }
+}
+.put-item-File {
+  background: #f1efeb;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity:0;
+}
+/*===========================================================
+                  マイページ
+===========================================================*/
+
+.mypqge-profle {
+  padding-left: 30px;
+  padding-right: 30px;
+@at-root {
+  .mypqge-profle__name  {
+
+  }
+}}
+
+.mypage-item-List__obj-Thumbnail {
+  @extend .c-obj-List__obj-Thumbnail;
+  //height: auto;
+  height: 250px;
+  //max-height: 250px;
+}
+
+
+.mypage-iteme-Thumbnail__img {
+  @extend .c-obj-Thumbnail__img;
+  height: 60%;
+}
+
+
+.mypage-item-Thumbnail__paragraph {
+  height: 40%;
+  > p {
+    //height: 50%;
+  }
+}
+
+.mypage-Link-List {
+
+  padding-left: 30px;
+  padding-right: 30px;
+  > li {
+    list-style: none;
+  }
+}
+
+/*===========================================================
+                  ユーザー情報修正
+===========================================================*/
+.myprofile-Form-Wrapper {
+  @extend .login-reg-Form-Wrapper;
+}
+
+.myprofile-Form-Wrapper__Info {
+  @extend .login-reg-Form-Wrapper__Reg;
+  width: 100%;
+}
+
+.myprofile-Info {
+  @extend .login-reg-reg;
+}
+
+.myprofile-Info__text {
+  //@extend .login-reg-reg__text;
+}
+.myprofile-Info__form {
+  //@extend .login-reg-Reg__form;
+}
+
+.My-Img {
+  //max-height: 230px;
+  overflow: hidden;
+  //padding: 3%;
+  background: #f1efeb; //jsでコントロール
+  height: 300px;
+  padding: 3%;
+@at-root {
+  .My-Img__display {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+  }
+}}
+
+.My-Img-LivePre {
+  position: relative;
+  padding-bottom: 60px;
+  height: 360px;
+
+@at-root {
+  .My-Img-LivePre__note {
+    position: absolute;
+    bottom: 40px;
+  }
+  .My-Img-LivePre__input-file  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 95%;
+
+    @include --mediaMax(500px) {
+      padding-top: 115%;
+    }
+    @include --mediaMax(350px) {
+      padding-top: 140%;
+      left: -25px;
+    }
+    
+  }
+}}
+
+
+/*===========================================================
+                  chat-board
+===========================================================*/
+
+.chat-Main-Wrapper {
+  @include clearfix;
+}
+
+.chat-Main-Wrapper__Item-Detail {
+  @extend .item-Main-Wrapper__Item-Detail;
+  width: 30%;
+  
+  @include --mediaMax(800px) {
+    float: none;
+    width: 100%;
+    margin-top: 90px;
+  }
+}
+
+.chat-Main-Wrapper__Chat-Board {
+  @extend .item-Main-Wrapper__Comments-Area;
+  width: 70%;
+
+  @include --mediaMax(800px) {
+    float: none;
+    width: 100%;
+  }
+}
+
+.chat-Chat-Board {
+  @include clearfix;
+  margin: 0 auto 10px auto;
+
+  @include --mediaMax(800px) {
+    padding: 0 15px;
+  }
+
+}
+
+.chat-Person-Img-Name {
+  @extend .item-Proposal__person;
+  height: 185px;
+  width: 200px;
+  @include --mediaMax(800px) {
+    height: auto;
+  }
+  @include --mediaMax(500px) {
+    float:none;
+
+  }
+}
+
+.chat-person-img {
+  overflow: hidden;
+  height: 80%;
+
+  > img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+  }
+}
+.item-person-img {}
+
+.chat-Person-Comment {
+  border: 3px dotted #fcc;
+  border-radius: 3%;
+  background: #fff;
+  margin-left: 2%;
+  width: calc(100% - 4% - 200px);//4%は余白分　200px画像幅
+  height: 185px;
+  float: left;
+  display: block;
+
+  @include --mediaMax(500px) {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    float: none;
+    height: auto;
+    min-height: 100px;
+    max-height: 185px;
+  }
+}
+.chat-Comment {
+
+  float: right;
+
+  //下記　item-Proposal　を貼り付けただけ
+  @include --mediaMax(800px) {
+    width: 33%;
+  }
+  @include --mediaMax(500px) {
+    height: auto;
+    max-height: 150px;
+  }
+
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+
+  @include --mediaMax(800px) {
+    height: 130px;
+  }
+
+}
+
+.chat {
+  @extend .item-Proposal;
+  height: 60px;
+}
+.chat__comment--floatLeft {
+  @extend .item-Proposal__comment;  
+}
+
+.chat__comment--floatRight {
+  @extend .item-Proposal__comment;
+  float: right!important;
+  
+}
+

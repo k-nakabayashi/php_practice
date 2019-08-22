@@ -1,0 +1,291 @@
+/*ヘッダー
+<header class="l-header">
+    <div class="l-Header-Wrapper">
+        <div class="l-Header-Wrapper__Logo">
+            <a href=""></a>
+        </div>
+        <ul class="l-Header-Wrapper__list l-Header-List">
+            <li><a href="" class="c-Arrow-Down"></a></li>
+            <li><a href="" class="c-Arrow-Down"></a></li>
+        </ul>
+    </div>
+</header>
+*/
+.l-Header {
+    z-index: 1;
+    position: fixed;
+    background: rgb(224, 119, 87);
+    width: 100%;
+    height: 60px;
+
+    @include --mediaMax(800px) {
+      display: none;
+    }
+}
+
+.l-Header-Wrapper {
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    @include clearfix;
+
+@at-root {
+    .l-Header-Wrapper__logo {
+        float: left;
+        width: 40%;
+        height: auto;
+        > a {
+            background-image: url(/images/logoK.png);
+            background-size: contain;
+            background-position: center;
+            display: block;
+            height: 60px;
+            width:130px;
+            margin: auto;
+        }
+    }
+    .l-Header-Wrapper__list {
+        float: right;
+        width: 60%;
+        font-size: 14px;
+        
+    }
+}
+}
+
+/*ナビ絡む落ち*/
+/*
+@include --mediaMax(1158px) {
+    
+    .l-Header-Wrapper__logo,
+    .l-Header-Wrapper__list {
+    float: none;
+}}
+*/
+/*トップ画像の上部余白拡張、絡む落ち*/
+/*
+@include --mediaBetween (969px, 1157px) {
+    
+    .l-Header {
+        height: 120px;
+    }
+    
+    .l-Section-Top  {
+        padding-top: 90px!important;
+    }
+
+}
+
+//ナビ非表示*
+@include --mediaMax(968px) {
+    .l-Header-Wrapper__list {
+       @include --isUnvisible;
+    }
+}
+*/
+
+/*
+ <ul class="l-Header-Wrapper__list l-Header-List">
+*/
+.l-Header-List {
+    line-height: 60px;
+    text-align: center;
+    width: auto;
+
+    > li {
+        //display: table;
+        float: left;
+        > a {
+            // display: table-cell;
+            text-decoration: none;
+            color: #000;
+        }
+
+        + li {
+            padding-left: 20px;
+            padding-right: 20px
+        }
+    }
+
+    > li:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: background-color .5s;
+        > a {color: white;}
+    }
+}
+
+.l-Header-Logo1 {
+    display: inline-block;
+    background-image: url(/images/ico-homeK.gif); 
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+}
+.l-Header-Service {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #00b9ef;
+
+}
+.l-Header-Acordion1 {
+    background: grey;
+    text-align: left;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+// .l-Header-service:active {
+//     .l-Header-acordion1 {
+//         // width: 100px;
+//         // height: 1000px;
+//         // opacity: 1;
+//         // visibility: visible;
+//     }
+// }
+
+.l-Footer {
+    background-color: #92a1a6;
+    color: #fff;
+    margin: 60px auto;
+}
+.l-Footer-container {
+    padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.l-Footer-Wrapper {
+    @include clearfix();
+@at-root {
+    .l-Footer-Wrapper__profile {
+        float: left;
+        height: 20%;
+        margin-right: 60px;
+    }
+
+    .l-Footer-Wrapper__links {
+        float: left;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 45px;
+        width: 70%;
+
+    }
+}
+}
+
+.l-Footer-Profile {
+@at-root {
+    .l-Footer-Profile__list {
+        padding-top:60px;
+        height: 80%;
+        font-size: 12px;
+        display: inline-block;
+        background-image: url(/images/_logo.png);
+        background-size: 65%;    
+
+        > li:nth-child(2) {
+            font-size: 17px;
+        }
+    }
+
+    .l-Footer-Profile__link {
+        padding-top: 30px;
+        > a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+}
+
+// .l-Footer-Profile__list{
+//     display: inline-block;
+//     background-image: url(/images/_logo.png);
+//     background-size: 65%;
+// }
+
+.l-Footer-Map {
+    float: left;
+    margin-right: 30px;
+@at-root {
+    .l-Footer-Map__text {
+        font-size: 15px;
+        font-weight: bold;
+        > a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+    }
+
+    .l-Footer-Map__list {
+        font-size: 11px;
+        > ul > li > a{
+            color: #dadadc;
+            text-decoration: none;
+        }
+
+    }
+}}
+
+.l-Footer-Copyright {
+    color: #dadadc;
+    font-size: 11px;
+    margin-top: 60px;
+}
+
+/*メインラッパー*/
+.l-Main-Wrapper {
+  position: relative;
+
+@at-root {
+  /*サイドメニュー*/
+
+  .l-Main-Wrapper__Side-Menu {
+    position: fixed;
+    height: 80%;
+    width: 20%;
+
+    @include --mediaMax(800px) {
+      display: none;
+    }
+  }
+
+  /*メインメニュー*/
+  .l-Main-Wrapper__Main-Menu {
+    width: 80%;
+    margin-left: 20%;
+    padding: 30px 5%;
+    padding: 0 30px 5% 20px;
+
+    @include --mediaMax(800px) {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}}
+
+/*サイドメニュー*/
+.l-Side-Menu {
+  background: rgb(207, 206, 206);
+  margin: 0 auto;
+  padding: 15px;
+  height: 300px;
+
+  @include --mediaMax(800px) {
+    display:  none;
+  }
+
+
+  > form {
+    > label {
+      display: block;
+      width: 100%;
+      margin-top: 15px;
+    }
+    @include --mediaMax(800px) {
+      display: none;
+    }
+  }
+}
