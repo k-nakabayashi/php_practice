@@ -10640,3 +10640,180 @@ Stack trace:
 [19-Aug-2019 13:42:29 UTC] デバッグ：ログイン有効期限以内です。
 [19-Aug-2019 13:42:29 UTC] デバッグ：クエリ成功。
 [19-Aug-2019 13:42:29 UTC] デバッグ：クエリ成功。
+[08-Sep-2019 07:43:34 UTC] デバッグ：ログイン済みユーザーです。
+[08-Sep-2019 07:43:34 UTC] デバッグ：ログイン有効期限以内です。
+[08-Sep-2019 07:43:34 UTC] デバッグ：クエリ成功。
+[08-Sep-2019 07:43:34 UTC] デバッグ：クエリに失敗しました。
+[08-Sep-2019 07:43:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on int in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php:133
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php(55): display_All_Items()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php on line 133
+[08-Sep-2019 07:43:36 UTC] デバッグ：ログイン済みユーザーです。
+[08-Sep-2019 07:43:36 UTC] デバッグ：ログイン有効期限以内です。
+[08-Sep-2019 07:43:36 UTC] デバッグ：クエリ成功。
+[08-Sep-2019 07:43:36 UTC] デバッグ：クエリに失敗しました。
+[08-Sep-2019 07:43:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on int in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php:133
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php(55): display_All_Items()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php on line 133
+[08-Sep-2019 07:46:55 UTC] デバッグ：ログイン済みユーザーです。
+[08-Sep-2019 07:46:55 UTC] デバッグ：ログイン有効期限以内です。
+[08-Sep-2019 07:46:55 UTC] デバッグ：クエリ成功。
+[08-Sep-2019 07:46:55 UTC] デバッグ：クエリに失敗しました。
+[08-Sep-2019 07:46:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on int in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php:133
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php(55): display_All_Items()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php on line 133
+[08-Sep-2019 07:46:58 UTC] デバッグ：ログイン済みユーザーです。
+[08-Sep-2019 07:46:58 UTC] デバッグ：ログイン有効期限以内です。
+[08-Sep-2019 07:46:58 UTC] デバッグ：クエリ成功。
+[08-Sep-2019 07:46:58 UTC] デバッグ：クエリに失敗しました。
+[08-Sep-2019 07:46:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on int in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php:133
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php(55): display_All_Items()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php on line 133
+[08-Sep-2019 07:47:00 UTC] デバッグ：ログイン済みユーザーです。
+[08-Sep-2019 07:47:00 UTC] デバッグ：ログイン有効期限以内です。
+[08-Sep-2019 07:47:00 UTC] デバッグ：クエリ成功。
+[08-Sep-2019 07:47:00 UTC] デバッグ：クエリに失敗しました。
+[08-Sep-2019 07:47:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on int in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php:133
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php(55): display_All_Items()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php on line 133
+[08-Sep-2019 07:52:21 UTC] デバッグ：ログイン済みユーザーです。
+[08-Sep-2019 07:52:21 UTC] デバッグ：ログイン有効期限以内です。
+[08-Sep-2019 07:52:21 UTC] デバッグ：クエリ成功。
+[08-Sep-2019 07:52:21 UTC] デバッグ：クエリに失敗しました。
+[08-Sep-2019 07:52:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on int in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php:133
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php(55): display_All_Items()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php on line 133
+[08-Sep-2019 07:52:27 UTC] デバッグ：ログイン済みユーザーです。
+[08-Sep-2019 07:52:27 UTC] デバッグ：ログイン有効期限以内です。
+[08-Sep-2019 07:52:27 UTC] デバッグ：クエリ成功。
+[08-Sep-2019 07:52:27 UTC] デバッグ：クエリに失敗しました。
+[08-Sep-2019 07:52:36 UTC] デバッグ：ログイン済みユーザーです。
+[08-Sep-2019 07:52:36 UTC] デバッグ：ログイン有効期限以内です。
+[08-Sep-2019 07:52:36 UTC] デバッグ：クエリ成功。
+[08-Sep-2019 07:52:36 UTC] デバッグ：クエリに失敗しました。
+[08-Sep-2019 07:52:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on int in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php:133
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php(55): display_All_Items()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php on line 133
+[08-Sep-2019 07:52:37 UTC] PHP Stack trace:
+[08-Sep-2019 07:52:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on int in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php:133
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php(55): display_All_Items()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Super_User_Controller.php on line 133
+[08-Sep-2019 07:52:37 UTC] PHP Stack trace:
+[08-Sep-2019 07:52:37 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php:0
+[08-Sep-2019 07:52:37 UTC] PHP   1. {main}() /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php:0
+[08-Sep-2019 07:52:37 UTC] PHP   2. display_All_Items() /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php:55
+[08-Sep-2019 07:52:37 UTC] PHP   2. display_All_Items() /Applications/MAMP/htdocs/freemarket/Views/my/Mypage.php:55
+[09-Sep-2019 04:43:34 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:43:34 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:43:34 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:34 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:39 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:43:39 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:43:39 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:40 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:43:40 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:43:40 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:40 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:41 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:43:41 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:43:41 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:42 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:43:42 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:43:42 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:42 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:43 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:43:43 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:43:43 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:44 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:43:44 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:43:44 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:44 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:46 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:43:46 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:43:46 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:43:46 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:45:28 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:45:28 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:45:28 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:45:28 UTC] デバッグ：クエリに失敗しました。
+[09-Sep-2019 04:45:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on int in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php:273
+Stack trace:
+#0 /Applications/MAMP/htdocs/freemarket/Views/my/MyPage.php(80): sort_My_Items_by_Chat(Array)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/freemarket/Controller/Login_User_Controller.php on line 273
+[09-Sep-2019 04:45:30 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:45:30 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:45:30 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:45:30 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:47:15 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:47:15 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:47:16 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:47:17 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:47:17 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:47:17 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:47:57 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:47:57 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:47:57 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:47:57 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:47:57 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:47:57 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:47:59 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:47:59 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:47:59 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:47:59 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:47:59 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:47:59 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:47:59 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:48:03 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:48:03 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:48:03 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:48:23 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:48:23 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:48:23 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:48:24 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:48:24 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:48:24 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:48:25 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:48:25 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:48:25 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:48:25 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:48:25 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:48:25 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:48:25 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:48:29 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:48:29 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:48:29 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:48:34 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:48:34 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:48:34 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:48:34 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:49:59 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:49:59 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:49:59 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:49:59 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:50:19 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:50:19 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:50:19 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:50:19 UTC] デバッグ：クエリ成功。
+[09-Sep-2019 04:50:21 UTC] デバッグ：ログイン済みユーザーです。
+[09-Sep-2019 04:50:21 UTC] デバッグ：ログイン有効期限以内です。
+[09-Sep-2019 04:50:21 UTC] デバッグ：クエリ成功。
+[14-Oct-2019 08:31:11 UTC] デバッグ：ログイン済みユーザーです。
+[14-Oct-2019 08:31:11 UTC] デバッグ：ログイン有効期限以内です。
+[14-Oct-2019 08:31:11 UTC] デバッグ：クエリ成功。
+[14-Oct-2019 08:31:11 UTC] デバッグ：クエリ成功。
