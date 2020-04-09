@@ -20,9 +20,6 @@ if( !empty($_SESSION['login_date']) ){
     //最終ログイン日時を現在日時に更新
     $_SESSION['login_date'] = time();
     
-    //現在実行中のスクリプトファイル名がlogin.phpの場合
-    //$_SERVER['PHP_SELF']はドメインからのパスを返すため、今回だと「/webukatu_practice03/login.php」が返ってくるので、
-    //さらにbasename関数を使うことでファイル名だけを取り出せる
 
     //ログイン済みなのに、ログインページ行こうとすると
     //マイページへ強制遷移

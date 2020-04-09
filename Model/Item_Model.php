@@ -4,30 +4,10 @@
 
     public static function put_Item_By_Exhibitor_Id_and_List ($dbh, $data_list_item) {
       
-      $sql = 'INSERT INTO items
-        (item_img1,
-        item_img2,
-        item_img3,
-        item_title,
-        item_thumb,
-        item_detail,
-        item_category,
-        item_status,
-        item_area,
-        exhibitor_id,
-        at_created) 
-        VALUES 
-        (:item_img1,
-        :item_img2,
-        :item_img3,
-        :item_title,
-        :item_thumb,
-        :item_detail,
-        :item_category,
-        :item_status,
-        :item_area,
-        :exhibitor_id,
-        :at_created)';      
+      $sql = 'INSERT INTO items 
+      (item_img1,item_img2,item_img3,item_title,item_thumb,item_detail,item_category,item_status,item_area,exhibitor_id,at_created) 
+      VALUES 
+      (:item_img1,:item_img2,:item_img3,:item_title,:item_thumb,:item_detail,:item_category,:item_status,:item_area,:exhibitor_id,:at_created)';      
             
         $data_list_item[':at_created'] = date('Y-m-d H:i:s');
         return queryPost($dbh, $sql, $data_list_item);
@@ -108,6 +88,11 @@
 
     public static function select_My_Items_with_Chat_Boards ($dbh, $data_list) {
       $sql = 'SELECT * FROM items LEFT JOIN chat_boards ON items.item_id = chat_boards.item_id WHERE chat_boards.exhibitor_id = :exhibitor_id AND items.delete_flg = 0 AND chat_boards.delete_flg = 0';
+      return queryPost($dbh, $sql, $data_list);
+    }
+    
+    public static function select_My_Items($dbh, $data_list) {
+      $sql = 'SELECT * FROM items  WHERE exhibitor_id = :exhibitor_id';
       return queryPost($dbh, $sql, $data_list);
     }
   }

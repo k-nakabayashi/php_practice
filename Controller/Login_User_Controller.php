@@ -329,7 +329,7 @@ function sort_My_Items_by_Put ($data_list) {
   
       //applicant_idとexhibitor_id　中身はどっちもuser_id
       //どっちかでヒットすればいい
-      $stmt =  Item::select_My_Items_with_Chat_Boards($dbh, $data_list);
+      $stmt =  Item::select_My_Items($dbh, $data_list);
       $result = $stmt->fetchAll();
       
         

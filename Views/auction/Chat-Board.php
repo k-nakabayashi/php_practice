@@ -41,7 +41,7 @@ if (!(empty($_POST))) {
       $data_list = array(
         ':chat_board_id' => $chat_board_id,
         ':chat_comment' => $chat_comment,
-        'applicant_exhibitor_flg' => 1
+        ':applicant_exhibitor_flg' => 1
       );
       create_Chat_Comment ($data_list); //第２引数はapplicant_exhibitor_flgというカラムに付与させるため。デフォは0でapplicant用
 
@@ -50,7 +50,7 @@ if (!(empty($_POST))) {
       $data_list = array(
         ':chat_board_id' => $chat_board_id,
         ':chat_comment' => $chat_comment,
-        'applicant_exhibitor_flg' => 0
+        ':applicant_exhibitor_flg' => 0
       );
       create_Chat_Comment ($data_list);//
     }
@@ -171,7 +171,7 @@ if (!(empty($_POST))) {
                           <?php if ($chat_comment['applicant_exhibitor_flg'] == 1): ?>
                             <li class="chat u-clearfix"><!--関節クラス扱い-->
                               <div class="chat__comment--floatLeft">
-                                <p class="">aaaaaaa</p>
+                                <p class=""><?php echo $chat_comment['chat_comment'] ?></p>
                               </div>
                             </li>
                           <?php endif;?>
@@ -179,7 +179,7 @@ if (!(empty($_POST))) {
                           <?php if ($chat_comment['applicant_exhibitor_flg'] == 0): ?>
                             <li class="chat u-clearfix"><!--関節クラス扱い-->
                               <div class="chat__comment--floatRight">
-                                <p class="">aaaaaaa</p>
+                                <p class=""><?php echo $chat_comment['chat_comment'] ?></p>
                               </div>
                             </li>
                           <?php endif;?>
@@ -192,7 +192,7 @@ if (!(empty($_POST))) {
                           <?php if ($chat_comment['applicant_exhibitor_flg'] == 0): ?>
                             <li class="chat u-clearfix"><!--関節クラス扱い-->
                               <div class="chat__comment--floatLeft">
-                                <p class="">aaaaaaa</p>
+                                <p class=""><?php echo $chat_comment['chat_comment'] ?></p>
                               </div>
                             </li>
                           <?php endif;?>
@@ -200,7 +200,7 @@ if (!(empty($_POST))) {
                           <?php if ($chat_comment['applicant_exhibitor_flg'] == 1): ?>
                             <li class="chat u-clearfix"><!--関節クラス扱い-->
                               <div class="chat__comment--floatRight">
-                                <p class="">aaaaaaa</p>
+                                <p class=""><?php echo $chat_comment['chat_comment'] ?></p>
                               </div>
                             </li>
                           <?php endif;?>
